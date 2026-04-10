@@ -1,221 +1,204 @@
-# 🎯 Interview Sarathi v2 — AI Interview Coach
+# yallist
 
-Full-stack AI mock interview platform: real-time speech, posture & gesture analysis, and deep performance analytics.
+Yet Another Linked List
 
----
+There are many doubly-linked list implementations like it, but this
+one is mine.
 
-## 🤖 Complete AI/ML Stack
+For when an array would be too big, and a Map can't be iterated in
+reverse order.
 
-| Layer | Technology | Type | Notes |
-|-------|-----------|------|-------|
-| **LLM** | Google Gemini 2.0 Flash | Transformer LLM | Free API, no credit card |
-| **Speech-to-Text** | OpenAI Whisper (local) | DL / Transformer | Runs on CPU, no API key |
-| **NLP** | spaCy `en_core_web_sm` | Statistical NLP | Keyword extraction, resume parsing |
-| **Sentiment** | HuggingFace DistilBERT | Transformer DL | `distilbert-base-uncased-finetuned-sst-2-english` |
-| **Posture (1)** | MediaPipe Pose + FaceMesh | CNN (Google TFLite) | Eye contact, head pose, shoulders |
-| **Posture (2)** | DeepFace | CNN (VGG-Face) | Facial emotion detection |
-| **Posture Combined** | MediaPipe 60% + DeepFace 40% | Combined CNN | Final posture score |
-| **Database** | PostgreSQL + SQLAlchemy | — | 7 relational tables |
-| **Auth** | JWT + bcrypt | — | Stateless token auth |
 
-> **On CNN/DL models**: This project uses **pre-trained** CNN models via MediaPipe (Google's TFLite models) and DeepFace (VGG-Face). No custom model training is required — inference only. DistilBERT is a pre-trained Transformer DL model from HuggingFace.
+[![Build Status](https://travis-ci.org/isaacs/yallist.svg?branch=master)](https://travis-ci.org/isaacs/yallist) [![Coverage Status](https://coveralls.io/repos/isaacs/yallist/badge.svg?service=github)](https://coveralls.io/github/isaacs/yallist)
 
----
+## basic usage
 
-## 🏗️ Project Structure
+```javascript
+var yallist = require('yallist')
+var myList = yallist.create([1, 2, 3])
+myList.push('foo')
+myList.unshift('bar')
+// of course pop() and shift() are there, too
+console.log(myList.toArray()) // ['bar', 1, 2, 3, 'foo']
+myList.forEach(function (k) {
+  // walk the list head to tail
+})
+myList.forEachReverse(function (k, index, list) {
+  // walk the list tail to head
+})
+var myDoubledList = myList.map(function (k) {
+  return k + k
+})
+// now myDoubledList contains ['barbar', 2, 4, 6, 'foofoo']
+// mapReverse is also a thing
+var myDoubledListReverse = myList.mapReverse(function (k) {
+  return k + k
+}) // ['foofoo', 6, 4, 2, 'barbar']
 
-```
-interview-sarathi/
-├── backend/
-│   ├── main.py                     # FastAPI app entry point
-│   ├── database.py                 # PostgreSQL + SQLAlchemy
-│   ├── config.py                   # Settings from .env
-│   ├── requirements.txt
-│   ├── .env.template               # Copy → .env, fill in keys
-│   ├── models/
-│   │   ├── models.py               # ORM: users, sessions, questions, posture_logs...
-│   │   └── schemas.py              # Pydantic request/response schemas
-│   ├── routers/
-│   │   ├── auth.py                 # POST /register, /login, GET /me
-│   │   ├── sessions.py             # CRUD for interview sessions
-│   │   ├── interview.py            # Question gen, answer submit, STT
-│   │   ├── analysis.py             # Gemini deep analysis
-│   │   └── posture.py              # HTTP + WebSocket posture stream
-│   ├── services/
-│   │   ├── llm_service.py          # Google Gemini 2.0 Flash API
-│   │   ├── nlp_service.py          # spaCy + DistilBERT sentiment
-│   │   ├── stt_service.py          # Whisper local/API
-│   │   └── posture_service.py      # MediaPipe + DeepFace combined
-│   └── utils/
-│       └── auth.py                 # JWT create/decode, bcrypt
-├── frontend/
-│   └── index.html                  # Full SPA (modified from v5)
-│                                   # Changes: removed "View Sample" btn,
-│                                   # removed footer copyright,
-│                                   # full backend API integration injected
-├── scripts/
-│   ├── setup_db.sql                # PostgreSQL user + DB creation
-│   └── load_dataset.py             # GitHub dataset → PostgreSQL
-├── setup.sh                        # One-time setup
-└── run.sh                          # Start server
+var reduced = myList.reduce(function (set, entry) {
+  set += entry
+  return set
+}, 'start')
+console.log(reduced) // 'startfoo123bar'
 ```
 
----
+## api
 
-## ⚡ Quickstart (localhost)
+The whole API is considered "public".
 
-### Prerequisites
-- Python 3.10+
-- PostgreSQL 14+ (running)
-- `ffmpeg` (for local Whisper)
-- Google Gemini API key (free)
+Functions with the same name as an Array method work more or less the
+same way.
 
-### Step 1 — PostgreSQL
-```bash
-sudo apt install postgresql          # Ubuntu/Debian
-sudo systemctl start postgresql
-psql -U postgres -f scripts/setup_db.sql
-```
+There's reverse versions of most things because that's the point.
 
-### Step 2 — Configure
-```bash
-cp backend/.env backend/.env
-nano backend/.env   # Add GEMINI_API_KEY
-```
+### Yallist
 
-Get your **free Gemini API key**: https://aistudio.google.com/app/apikey
-- No credit card required
-- 15 requests/minute free tier
-- 1 million tokens/day
+Default export, the class that holds and manages a list.
 
-### Step 3 — Install ffmpeg (for Whisper)
-```bash
-sudo apt install ffmpeg          # Ubuntu/Debian
-brew install ffmpeg              # macOS
-```
+Call it with either a forEach-able (like an array) or a set of
+arguments, to initialize the list.
 
-### Step 4 — Setup & Run
-```bash
-chmod +x setup.sh run.sh
-./setup.sh    # Install packages, download models, seed dataset
-./run.sh      # Start server
-```
+The Array-ish methods all act like you'd expect.  No magic length,
+though, so if you change that it won't automatically prune or add
+empty spots.
 
-Open **http://localhost:8000** — the frontend and API are served from the same port.
+### Yallist.create(..)
 
----
+Alias for Yallist function.  Some people like factories.
 
-## 🌐 API Reference
+#### yallist.head
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/api/auth/register` | ❌ | Create user account |
-| POST | `/api/auth/login` | ❌ | Login → JWT token |
-| GET | `/api/auth/me` | ✅ | Current user |
-| POST | `/api/sessions/` | ✅ | Create interview session |
-| GET | `/api/sessions/` | ✅ | List all sessions |
-| GET | `/api/sessions/{id}` | ✅ | Session + Q&A + analysis |
-| PATCH | `/api/sessions/{id}/complete` | ✅ | Mark session done |
-| DELETE | `/api/sessions/{id}` | ✅ | Delete session |
-| POST | `/api/interview/first-question` | ✅ | Gemini opening question |
-| POST | `/api/interview/submit-answer` | ✅ | Answer → NLP → BERT → AI reply |
-| POST | `/api/interview/transcribe` | ❌ | Whisper STT (base64 audio) |
-| POST | `/api/interview/transcribe-file` | ✅ | Whisper STT (file upload) |
-| POST | `/api/analysis/{session_id}` | ✅ | Run Gemini deep analysis |
-| GET | `/api/analysis/{session_id}` | ✅ | Retrieve stored analysis |
-| POST | `/api/posture/analyze-frame` | ✅ | Single frame analysis |
-| WS | `/api/posture/ws/{session_id}` | ❌ | Real-time posture stream |
-| GET | `/api/posture/status` | ❌ | Check MediaPipe/DeepFace status |
-| GET | `/health` | ❌ | Health check |
+The first node in the list
 
-Full interactive docs: **http://localhost:8000/docs**
+#### yallist.tail
 
----
+The last node in the list
 
-## 🗄️ Database Schema (PostgreSQL)
+#### yallist.length
 
-```
-users              → id, email, hashed_password, full_name, college, branch, cgpa
-resumes            → id, user_id, filename, text_content, skills_extracted
-interview_sessions → id, user_id, company, role, difficulty, num_questions, overall_score
-session_questions  → id, session_id, question_text, answer_text, bert_label, bert_score, nlp_keywords
-session_analyses   → id, session_id, overall_score, dimensions JSON, full_analysis_json
-posture_logs       → id, session_id, timestamp_sec, mediapipe_label, deepface_emotion, posture_label
-question_bank      → id, category, role, company, difficulty, question, answer_hint
-```
+The number of nodes in the list.  (Change this at your peril.  It is
+not magic like Array length.)
 
----
+#### yallist.toArray()
 
-## 🎥 Posture Analysis: How It Works
+Convert the list to an array.
 
-Every 6 seconds during the interview, the frontend captures a JPEG frame from the webcam and sends it over WebSocket to the backend.
+#### yallist.forEach(fn, [thisp])
 
-**MediaPipe analysis (60% weight):**
-- `FaceMesh`: detects if face is visible, estimates nose position for eye contact, measures eye level difference for head tilt
-- `Pose`: detects left/right shoulder landmarks, checks for slouching (shoulder height difference > 6%), forward lean
+Call a function on each item in the list.
 
-**DeepFace analysis (40% weight):**
-- Detects dominant facial emotion: happy / neutral / sad / fear / surprise / angry / disgust
-- `happy`/`surprise` → +10% confidence boost
-- `sad`/`fear`/`angry` → -12% confidence penalty
-- Uses VGG-Face CNN model internally (downloaded on first use, ~100 MB)
+#### yallist.forEachReverse(fn, [thisp])
 
-**Combined score formula:**
-```
-posture_ratio * 35 + eye_ratio * 35 + face_ratio * 15 + happy_ratio * 10 + avg_confidence * 5
-```
+Call a function on each item in the list, in reverse order.
 
----
+#### yallist.get(n)
 
-## 🧠 Sentiment Analysis: DistilBERT
+Get the data at position `n` in the list.  If you use this a lot,
+probably better off just using an Array.
 
-- Model: `distilbert-base-uncased-finetuned-sst-2-english`
-- Type: Transformer DL (fine-tuned on SST-2 sentiment dataset)
-- Output: `POSITIVE` / `NEGATIVE` + confidence score (0.0–1.0)
-- Used for: scoring each answer in the final report
-- Lazy-loaded on first use (downloads ~270 MB model weights)
+#### yallist.getReverse(n)
 
----
+Get the data at position `n`, counting from the tail.
 
-## 🔑 Getting Your Free Gemini API Key
+#### yallist.map(fn, thisp)
 
-1. Go to: https://aistudio.google.com/app/apikey
-2. Sign in with Google account
-3. Click **"Create API key"**
-4. Copy the key → paste into `backend/.env` as `GEMINI_API_KEY=AIzaSy...`
+Create a new Yallist with the result of calling the function on each
+item.
 
-**Free tier limits:** 15 requests/minute, 1M tokens/day — more than enough for localhost use.
+#### yallist.mapReverse(fn, thisp)
 
----
+Same as `map`, but in reverse.
 
-## 🐛 Troubleshooting
+#### yallist.pop()
 
-**Backend won't start**
-```bash
-sudo systemctl status postgresql   # Check PostgreSQL is running
-cat backend/.env                   # Verify DATABASE_URL
-lsof -i :8000                      # Check port is free
-```
+Get the data from the list tail, and remove the tail from the list.
 
-**spaCy model missing**
-```bash
-source venv/bin/activate
-python -m spacy download en_core_web_sm
-```
+#### yallist.push(item, ...)
 
-**Whisper fails: "ffmpeg not found"**
-```bash
-sudo apt install ffmpeg   # Ubuntu
-brew install ffmpeg        # macOS
-```
+Insert one or more items to the tail of the list.
 
-**DeepFace slow on first run**
-- It downloads ~100 MB VGG-Face model weights on first analysis. Subsequent runs are fast.
+#### yallist.reduce(fn, initialValue)
 
-**BERT out of memory**
-- DistilBERT needs ~500 MB RAM. Close other apps if needed.
-- Model is lazy-loaded (only on first analysis request).
+Like Array.reduce.
 
-**Gemini API 429 rate limit**
-- Free tier: 15 req/min. The interview flow uses ~1 req per answer, well within limits.
-- If hit, wait 60s and retry.
+#### yallist.reduceReverse
+
+Like Array.reduce, but in reverse.
+
+#### yallist.reverse
+
+Reverse the list in place.
+
+#### yallist.shift()
+
+Get the data from the list head, and remove the head from the list.
+
+#### yallist.slice([from], [to])
+
+Just like Array.slice, but returns a new Yallist.
+
+#### yallist.sliceReverse([from], [to])
+
+Just like yallist.slice, but the result is returned in reverse.
+
+#### yallist.toArray()
+
+Create an array representation of the list.
+
+#### yallist.toArrayReverse()
+
+Create a reversed array representation of the list.
+
+#### yallist.unshift(item, ...)
+
+Insert one or more items to the head of the list.
+
+#### yallist.unshiftNode(node)
+
+Move a Node object to the front of the list.  (That is, pull it out of
+wherever it lives, and make it the new head.)
+
+If the node belongs to a different list, then that list will remove it
+first.
+
+#### yallist.pushNode(node)
+
+Move a Node object to the end of the list.  (That is, pull it out of
+wherever it lives, and make it the new tail.)
+
+If the node belongs to a list already, then that list will remove it
+first.
+
+#### yallist.removeNode(node)
+
+Remove a node from the list, preserving referential integrity of head
+and tail and other nodes.
+
+Will throw an error if you try to have a list remove a node that
+doesn't belong to it.
+
+### Yallist.Node
+
+The class that holds the data and is actually the list.
+
+Call with `var n = new Node(value, previousNode, nextNode)`
+
+Note that if you do direct operations on Nodes themselves, it's very
+easy to get into weird states where the list is broken.  Be careful :)
+
+#### node.next
+
+The next node in the list.
+
+#### node.prev
+
+The previous node in the list.
+
+#### node.value
+
+The data the node contains.
+
+#### node.list
+
+The list to which this node belongs.  (Null if it does not belong to
+any list.)
