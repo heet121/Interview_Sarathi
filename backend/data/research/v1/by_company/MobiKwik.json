@@ -1,0 +1,701 @@
+{
+  "company": "MobiKwik",
+  "sections": {
+    "coding": [
+      {
+        "id": "05d5719df0fbd47a",
+        "question": "Given an array of distinct elements, rearrange the elements of an array in zig-zag fashion in O(n) time. The converted array should be in form a < b > c < d > e < f.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "065f96d62e4817b3",
+        "question": "Find k max in an array and print it.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6ffd0a6bc2fc426f",
+        "question": "Given a rod of length n inches and an array of prices that contains prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "047e472965457a80",
+        "question": "You are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ba107d5147f09519",
+        "question": "Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "52e20eb672f4b302",
+        "question": "Given a matrix of n*n. Each cell contain 0, 1, -1. 0 denotes there is no diamond but there is a path. 1 denotes there is a diamond at that location with a path -1 denotes that the path is blocked. Now you have started from 0,0 and reach to the last cell & then return to 0,0 collecting maximum no of diamonds. While going to the last cell you can move only right and down. While returning you can move only left and up.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f5b6ab165e1fb2aa",
+        "question": "Given a graph of connected and unconnected cities and cost for connecting unconnected cities were provided and we were asked to find minimum cost to connect all cities.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "addb79ad24988d6b",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6f6651c842f6d764",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: MobiKwik — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4d6112ce7db2f7d3",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "919c9985f07e5a72",
+        "question": "Reverse a linked list in groups of size k. (Context: MobiKwik — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e32794a1f21537fb",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d1aa0be447a18a5e",
+        "question": "Find the longest substring without repeating characters. (Context: MobiKwik — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "94716dd17d0cc1b8",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "50bf747e25564732",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: MobiKwik — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "555132bbe98cc883",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7ee55fe8f342a4c0",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: MobiKwik — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4a70490992417e7c",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5ce0961551b992ea",
+        "question": "Implement LRU cache with O(1) get and put. (Context: MobiKwik — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "96ffdb47600a4368",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5597b132ffd40993",
+        "question": "Find the median from a data stream. (Context: MobiKwik — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0e90464489b03e39",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b5b7db44b40acded",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s. (Context: MobiKwik — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7171b9a23a7996a1",
+        "question": "Serialize and deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7787b915db98b8ca",
+        "question": "Serialize and deserialize a binary tree. (Context: MobiKwik — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e2a8ba2e54a42265",
+        "question": "Find all anagrams of a pattern in a string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d4de1764242ad740",
+        "question": "Find all anagrams of a pattern in a string. (Context: MobiKwik — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "39d3ca324135ddfa",
+        "question": "Given a rotated sorted array, search for a target value.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b61945cab72e3a58",
+        "question": "Given a rotated sorted array, search for a target value. (Context: MobiKwik — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0138cd31c7638308",
+        "question": "Implement a trie with insert, search, and prefix search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "088800c2369fe1f8",
+        "question": "Implement a trie with insert, search, and prefix search. (Context: MobiKwik — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0c90a8071378bd83",
+        "question": "Find the shortest path in a grid with obstacles elimination.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "abd4bcc032b59a97",
+        "question": "Find the shortest path in a grid with obstacles elimination. (Context: MobiKwik — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7a07fb6a5e9bf0af",
+        "question": "Given an array, find the maximum product subarray.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8f92bdc19f3e0bf6",
+        "question": "Given an array, find the maximum product subarray. (Context: MobiKwik — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6509e15888efb36e",
+        "question": "Detect cycle in a directed graph.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "760bca2c13e1b301",
+        "question": "Detect cycle in a directed graph. (Context: MobiKwik — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ff6615958c2db1fe",
+        "question": "Find the kth largest element in an unsorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "53ae3cd62bf95ba6",
+        "question": "Find the kth largest element in an unsorted array. (Context: MobiKwik — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "db69e0320352a879",
+        "question": "Given intervals, merge overlapping intervals.",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c63640ca455b54d1",
+        "question": "Given intervals, merge overlapping intervals. (Context: MobiKwik — software engineering)",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4368c084b63380bf",
+        "question": "Implement pow(x, n) with O(log n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9eef3fbaffb6d2ea",
+        "question": "Implement pow(x, n) with O(log n) time. (Context: MobiKwik — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "44cc2561c776eaa7",
+        "question": "Find the number of islands in a 2D grid.",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4b4c55c14e07548e",
+        "question": "Find the number of islands in a 2D grid. (Context: MobiKwik — software engineering)",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e2aa27c406f5cc3f",
+        "question": "Given a string, find the longest palindromic substring.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "68f7f1d76f1ffbe0",
+        "question": "Given a binary tree, print its top, bottom left and right view.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "73f0e072ebecaa61",
+        "question": "Implement queue with two stacks.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b89b5aae6838e107",
+        "question": "Find the LCA of two nodes in BST.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Recursive DFS with base cases; BST uses ordering property. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "21d2d3183196c98a",
+        "question": "Find successor and predecessor of a node in BST.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "425331f074931973",
+        "question": "Write a program for solving the Tower of Hanoi problem.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b596d6f2bf9d46be",
+        "question": "Write a program for string reversal through recursion.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cc3869ceab082254",
+        "question": "Write codes for Heap sort, Radix sort and Merge sort.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "626a73b4ed727522",
+        "question": "Find whether the linked list has a loop or not.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6eba6b876e89e96e",
+        "question": "Find the meeting point of the loop in a linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bc9a5de614f10d72",
+        "question": "Reverse a linked list by recursion.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "632f75789ba143c6",
+        "question": "Reverse a stack without using extra memory.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "52e83ca3f143480f",
+        "question": "Make a balanced BST from the given sorted linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c4afbe3b65c84eaa",
+        "question": "Given a string, find the maximum substring having an equal number of 1's an equal number of 0's.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c46b4a262671dce5",
+        "question": "Find the total number of ways in which 2 x N strip can be filled with 2 x 1 brick. ( O(log n)).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c4b53cc3e0b64a3f",
+        "question": "Find the elements having the sum equal to k from BST in O(n) time complexity.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1fea37e816c4513b",
+        "question": "Find the maximum square submatrix from a given matrix filled with only '1'.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f0d815e6570d4b61",
+        "question": "Find 35/3 without using recursion.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dbms": [
+      {
+        "id": "cae80b9880c804bf",
+        "question": "Write a query for the maximum number.",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "73a4db4692b340b6",
+        "question": "Difference between the “having by” and “group by”?",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "miscellaneous": [
+      {
+        "id": "d36822ab7cc60a6e",
+        "question": "What is serialization?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "69bc83a4a186ddbe",
+        "question": "Why there is some null interface in java? What does it mean? Give me some null interfaces in JAVA?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "25d6a9d9d3b969b5",
+        "question": "What is JNI?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7d4953c440288880",
+        "question": "What is a compilation unit?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f2c430e765e9a31e",
+        "question": "Is string a wrapper class?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "31fdadec7706571b",
+        "question": "Why Java is not 100 objects oriented language?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ba96b3f395d67dbc",
+        "question": "What is a resource bundle?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2d91cf96c6e46197",
+        "question": "Is Iterator a Class or Interface? What is its use?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "df26ef76da3e4716",
+        "question": "Why do threads block on I/O?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7b56d3c94bc8d4b4",
+        "question": "What is synchronization and why is it important?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1244a5169629a7bd",
+        "question": "How class level lock is acquired?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2996d9c3412fc749",
+        "question": "Is null is a keyword in Java?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "67b6296ba059c76a",
+        "question": "What is checked and unchecked exceptions?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "975e5929cb40cee3",
+        "question": "Does garbage collection guarantee that a program will not run out of memory?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cb06da417570e037",
+        "question": "What restrictions are placed on the location of a package statement within a source code file?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e8589a413f995815",
+        "question": "What is the immediate superclass of the Applet class?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "591c805d1352caa3",
+        "question": "What is the size of an empty class in C++ and Java? Why is it not zero? sizeof(); returns 1 in the case of C++.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bf5cdd2f0b71a3c1",
+        "question": "Explain compile time polymorphism and runtime polymorphism.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "229cb515d5424f70",
+        "question": "What is the reason for single inheritance in Java?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a9da28e8880eb6fb",
+        "question": "What is the reason for single inheritance in Java ?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "64ce277a38541307",
+        "question": "How to compute 33/5 without using ‘/’, ‘%’ and ‘*’ operator.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to MobiKwik.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

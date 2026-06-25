@@ -1,0 +1,697 @@
+{
+  "company": "Palantir",
+  "sections": {
+    "coding": [
+      {
+        "id": "fb845cbb62fab41c",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cf7bfabc81f7bef3",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Palantir — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "49bbe84927c4e498",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "46eebacfb6cfaa64",
+        "question": "Reverse a linked list in groups of size k. (Context: Palantir — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a0c002a8b8ff1265",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "466445d396df0b73",
+        "question": "Find the longest substring without repeating characters. (Context: Palantir — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "febc4078c97905ad",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "206734dfe84ce1fa",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Palantir — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7a5a9e712ea4d5b5",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "036c315502e5cd4c",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Palantir — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7eb8b54c66a1d275",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "75ed140669b54165",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Palantir — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2f30cbc326f48b40",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "caaf0b5f81e09a75",
+        "question": "Find the median from a data stream. (Context: Palantir — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "37ca2cbccc045d93",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "00cb630e0284c553",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6c3d435871e479dd",
+        "question": "Serialize and deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8917faa504681e92",
+        "question": "Serialize and deserialize a binary tree. (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1ce7f6aab8d2f063",
+        "question": "Find all anagrams of a pattern in a string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bb9b9beb4782ccbb",
+        "question": "Find all anagrams of a pattern in a string. (Context: Palantir — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4345367695981659",
+        "question": "Given a rotated sorted array, search for a target value.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "377dbde003df67eb",
+        "question": "Given a rotated sorted array, search for a target value. (Context: Palantir — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ac29931a46b47013",
+        "question": "Implement a trie with insert, search, and prefix search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b51f500d7cf7f5fa",
+        "question": "Implement a trie with insert, search, and prefix search. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "56c9da9134976768",
+        "question": "Find the shortest path in a grid with obstacles elimination.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "075f5b0ddebdeadb",
+        "question": "Find the shortest path in a grid with obstacles elimination. (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6024123b89df9243",
+        "question": "Given an array, find the maximum product subarray.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b0615b8d2b458c28",
+        "question": "Given an array, find the maximum product subarray. (Context: Palantir — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "db1a5162b65113da",
+        "question": "Detect cycle in a directed graph.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d54783dad179a376",
+        "question": "Detect cycle in a directed graph. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3a7e0fdbf114ff5c",
+        "question": "Find the kth largest element in an unsorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9f9b5ad5015a250e",
+        "question": "Find the kth largest element in an unsorted array. (Context: Palantir — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d349ccee70c335cd",
+        "question": "Given intervals, merge overlapping intervals.",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7ba28e5f190e861d",
+        "question": "Given intervals, merge overlapping intervals. (Context: Palantir — software engineering)",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "035d0e94dbd8859a",
+        "question": "Implement pow(x, n) with O(log n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5570a7acd2c6f106",
+        "question": "Implement pow(x, n) with O(log n) time. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "33f8ee601b5bc26d",
+        "question": "Find the number of islands in a 2D grid.",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "235371bbbbdac0ad",
+        "question": "Find the number of islands in a 2D grid. (Context: Palantir — software engineering)",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cc66097b59b3662e",
+        "question": "Given a string, find the longest palindromic substring.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4d9c35b8fae65c27",
+        "question": "Given a string, find the longest palindromic substring. (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d61203f6407997a2",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "73d08a2fb94544f8",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1). (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3f13429e47b4069f",
+        "question": "Find the edit distance between two strings.",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "564091184345dd69",
+        "question": "Find the edit distance between two strings. (Context: Palantir — software engineering)",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5fd86d5da17a37a2",
+        "question": "Given a binary search tree, validate whether it is a valid BST.",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cd4853308d15c515",
+        "question": "Given a binary search tree, validate whether it is a valid BST. (Context: Palantir — software engineering)",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "aa2c92eca5319537",
+        "question": "Find the word break problem solution for a given dictionary.",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "db9b4b45d00e2ea9",
+        "question": "Find the word break problem solution for a given dictionary. (Context: Palantir — software engineering)",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f3f78ad128993702",
+        "question": "Implement next permutation for an array of numbers.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e3b1c8c49ef322bd",
+        "question": "Implement next permutation for an array of numbers. (Context: Palantir — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "26a1bf0263f2ba3f",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e8a63cc5a1dea6e1",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ce9f3a5858091bc7",
+        "question": "Find maximum sum path in a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a8cfc3164c25c3c2",
+        "question": "Find maximum sum path in a binary tree. (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "09cfab6f62f24509",
+        "question": "Implement regular expression matching with '.' and '*'.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "df50c71d8dcd23f3",
+        "question": "Implement regular expression matching with '.' and '*'. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7b36fb3b5d84f232",
+        "question": "Given a string of digits, return all possible letter combinations.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "987cbaad768c3527",
+        "question": "Given a string of digits, return all possible letter combinations. (Context: Palantir — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c0c2dc255e9a013f",
+        "question": "Find minimum window substring containing all characters of a pattern.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3810041ae2e8c563",
+        "question": "Find minimum window substring containing all characters of a pattern. (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "aa7915d3af00e975",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3ededb142de0405e",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ec1d09b506b35881",
+        "question": "What is the difference between a stack and a queue? Give real-world examples.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e780170eaffb669b",
+        "question": "What is the difference between a stack and a queue? Give real-world examples. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a983c08656775832",
+        "question": "How does a hash map work internally? Explain collision resolution strategies.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "31507331bea02074",
+        "question": "How does a hash map work internally? Explain collision resolution strategies. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c50171094b7945c0",
+        "question": "Compare array list vs linked list for insert, delete, and random access.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "45ad7b1c5495b90e",
+        "question": "Compare array list vs linked list for insert, delete, and random access. (Context: Palantir — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7fef8b333063dc31",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a40bbb1b35e3d445",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used? (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ecf3fdd13b2b1cdd",
+        "question": "Explain BFS vs DFS with use cases in interview problems.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "95f2b76d17519ac9",
+        "question": "Explain BFS vs DFS with use cases in interview problems. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a1fa0f84511a2221",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c87b974d738158f4",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure. (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8143923d0532b585",
+        "question": "How does Dijkstra's algorithm work and when does it fail?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6fad9bf157775d3c",
+        "question": "How does Dijkstra's algorithm work and when does it fail? (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3d796c7c6ddd7ab8",
+        "question": "Explain topological sorting and where it is used.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "828af5f57be7977a",
+        "question": "Explain topological sorting and where it is used. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ec4bb493bf377fb9",
+        "question": "What is the difference between recursion and iteration for tree traversals?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3afcaa10c3db8254",
+        "question": "What is the difference between recursion and iteration for tree traversals? (Context: Palantir — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c74a7e8f28d8db2e",
+        "question": "How would you detect a cycle in a linked list?",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e4781649b534cd84",
+        "question": "How would you detect a cycle in a linked list? (Context: Palantir — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fd2f157ef1e490e7",
+        "question": "Explain heap data structure and its use in priority queues.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6bf6c7cdecf4fa5b",
+        "question": "Explain heap data structure and its use in priority queues. (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "74bd0856c65ce6c7",
+        "question": "What is trie and when would you prefer it over a hash map?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eebf2522583a02f9",
+        "question": "What is trie and when would you prefer it over a hash map? (Context: Palantir — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Palantir.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

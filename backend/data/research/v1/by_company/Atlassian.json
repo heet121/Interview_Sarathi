@@ -1,0 +1,697 @@
+{
+  "company": "Atlassian",
+  "sections": {
+    "coding": [
+      {
+        "id": "a63e5faf54e7174e",
+        "question": "Two strings are anagrams if they are permutations of each other. For example, “aaagmnrs” is an anagram of “anagrams”. Given an array of strings, remove each string that is an anagram of an earlier string, then return the remaining array in sorted order.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2d15a046a0bf9071",
+        "question": "Given an array of n points in the plane, and the problem is to find out the closest pair of points in the array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "223eef4f9aeda0f7",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5049f36399af97b3",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Atlassian — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b46058bdaec3c4f1",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "17164c1e91d77641",
+        "question": "Reverse a linked list in groups of size k. (Context: Atlassian — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "da896aae484ddb66",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ebe2aa58f6110f86",
+        "question": "Find the longest substring without repeating characters. (Context: Atlassian — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f4a7e55499fb9197",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8ee0f1a1b2d0484c",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Atlassian — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9caf64ee952c0cac",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "905a0b6458dc2728",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Atlassian — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "595176a6c48ac70a",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2e432c50f5ed8c39",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Atlassian — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d8725b521de3ddb1",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "67e1543ba7bdbba2",
+        "question": "Find the median from a data stream. (Context: Atlassian — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5dba324a60d962a9",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fcbaba547132b65d",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "47269b34bdb0455a",
+        "question": "Serialize and deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0c6304ff1a397998",
+        "question": "Serialize and deserialize a binary tree. (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "436c12a2f3933e8e",
+        "question": "Find all anagrams of a pattern in a string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0f99e16d0aa8f126",
+        "question": "Find all anagrams of a pattern in a string. (Context: Atlassian — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cb6bfbe591d71f1a",
+        "question": "Given a rotated sorted array, search for a target value.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eddd4523518ff9f4",
+        "question": "Given a rotated sorted array, search for a target value. (Context: Atlassian — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "958c8bb778168ec4",
+        "question": "Implement a trie with insert, search, and prefix search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2415b21ca8a8cbf4",
+        "question": "Implement a trie with insert, search, and prefix search. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2f2300fd5aae0ee5",
+        "question": "Find the shortest path in a grid with obstacles elimination.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7736d6d8ec2598e8",
+        "question": "Find the shortest path in a grid with obstacles elimination. (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "87939975cc96ac7e",
+        "question": "Given an array, find the maximum product subarray.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "415f520e89e1ea31",
+        "question": "Given an array, find the maximum product subarray. (Context: Atlassian — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8d8da9d451a307b7",
+        "question": "Detect cycle in a directed graph.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d3ccc95a3b165ada",
+        "question": "Detect cycle in a directed graph. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "26648c8fdbff621e",
+        "question": "Find the kth largest element in an unsorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "78848b572b899968",
+        "question": "Find the kth largest element in an unsorted array. (Context: Atlassian — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3e0900a0b31483bc",
+        "question": "Given intervals, merge overlapping intervals.",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0d2ee06bf3c23bf7",
+        "question": "Given intervals, merge overlapping intervals. (Context: Atlassian — software engineering)",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ec1cee0b63c25ad4",
+        "question": "Implement pow(x, n) with O(log n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e3c1717192e70f98",
+        "question": "Implement pow(x, n) with O(log n) time. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "381b912c5e9ceddb",
+        "question": "Find the number of islands in a 2D grid.",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "19e5d588fed77f74",
+        "question": "Find the number of islands in a 2D grid. (Context: Atlassian — software engineering)",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fd891f3835e13930",
+        "question": "Given a string, find the longest palindromic substring.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e27f6eb91838e1a0",
+        "question": "Given a string, find the longest palindromic substring. (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d6c9baeaa4a83888",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a6048ac4d1b6c6ee",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1). (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dbefde89fb43d09b",
+        "question": "Find the edit distance between two strings.",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0b76685a9475dc5b",
+        "question": "Find the edit distance between two strings. (Context: Atlassian — software engineering)",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e3d159059ccf359b",
+        "question": "Given a binary search tree, validate whether it is a valid BST.",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "77e6bf900917ce22",
+        "question": "Given a binary search tree, validate whether it is a valid BST. (Context: Atlassian — software engineering)",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f556468c7efd5caf",
+        "question": "Find the word break problem solution for a given dictionary.",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e0b5b2806481de46",
+        "question": "Find the word break problem solution for a given dictionary. (Context: Atlassian — software engineering)",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eaf065f7621a548a",
+        "question": "Implement next permutation for an array of numbers.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5b1642c8a47431a2",
+        "question": "Implement next permutation for an array of numbers. (Context: Atlassian — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "26470ebe9e21ec26",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0a45344b456b4f96",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7d5118e8b3d3b444",
+        "question": "Find maximum sum path in a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1e67d38e8e7b624c",
+        "question": "Find maximum sum path in a binary tree. (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d4e33197415c6abd",
+        "question": "Implement regular expression matching with '.' and '*'.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4cdaddbc03c36cb7",
+        "question": "Implement regular expression matching with '.' and '*'. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b0919f175a575e5d",
+        "question": "Given a string of digits, return all possible letter combinations.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9b04e93c1abafafa",
+        "question": "Given a string of digits, return all possible letter combinations. (Context: Atlassian — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6ac7f69834e9299a",
+        "question": "Find minimum window substring containing all characters of a pattern.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a514db4ba40568cf",
+        "question": "Find minimum window substring containing all characters of a pattern. (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "36956161fb5d9993",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "447033d23f6f0bae",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2a8796888cea2b51",
+        "question": "What is the difference between a stack and a queue? Give real-world examples.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3992f481a0c9568b",
+        "question": "What is the difference between a stack and a queue? Give real-world examples. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "751ddcfee6303a26",
+        "question": "How does a hash map work internally? Explain collision resolution strategies.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "badc119c01e1fc4f",
+        "question": "How does a hash map work internally? Explain collision resolution strategies. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e641cdafa5aeb101",
+        "question": "Compare array list vs linked list for insert, delete, and random access.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "250f51667240fa54",
+        "question": "Compare array list vs linked list for insert, delete, and random access. (Context: Atlassian — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6438e45d8f06b64c",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8e30c9024b240f61",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used? (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7699b6bf7b7862ae",
+        "question": "Explain BFS vs DFS with use cases in interview problems.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b74788d8b5f78c50",
+        "question": "Explain BFS vs DFS with use cases in interview problems. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3cd9a659270df204",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1dfc644149ef8f94",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure. (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eb0898e2f3770298",
+        "question": "How does Dijkstra's algorithm work and when does it fail?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1da71c79b36749c8",
+        "question": "How does Dijkstra's algorithm work and when does it fail? (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6691cc4384e42ff9",
+        "question": "Explain topological sorting and where it is used.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fdacf32ffc08a276",
+        "question": "Explain topological sorting and where it is used. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e6ee95cd6c478a9b",
+        "question": "What is the difference between recursion and iteration for tree traversals?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "133a529631a64b4e",
+        "question": "What is the difference between recursion and iteration for tree traversals? (Context: Atlassian — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b04c5672b162bd95",
+        "question": "How would you detect a cycle in a linked list?",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2098d814fe096e1c",
+        "question": "How would you detect a cycle in a linked list? (Context: Atlassian — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dce21880a59da318",
+        "question": "Explain heap data structure and its use in priority queues.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "70a41254e3fe8d15",
+        "question": "Explain heap data structure and its use in priority queues. (Context: Atlassian — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Atlassian.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

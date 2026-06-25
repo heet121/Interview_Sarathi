@@ -1,0 +1,144 @@
+{
+  "Adobe": {
+    "coding": 70,
+    "dsa": 16
+  },
+  "AirAsia": {
+    "coding": 64,
+    "dsa": 19,
+    "dbms": 1,
+    "operating_system": 2
+  },
+  "Amazon": {
+    "coding": 70,
+    "dsa": 13,
+    "system_design": 3
+  },
+  "AmericanExpress": {
+    "coding": 64,
+    "dsa": 22
+  },
+  "Atlassian": {
+    "coding": 62,
+    "dsa": 24
+  },
+  "BookMyShow": {
+    "coding": 64,
+    "dsa": 18,
+    "operating_system": 3,
+    "miscellaneous": 1
+  },
+  "Box": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "Expedia": {
+    "coding": 80,
+    "dsa": 3,
+    "technical": 1,
+    "miscellaneous": 2
+  },
+  "Facebook": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "Flipkart": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "Google": {
+    "telephonic": 5,
+    "coding": 66,
+    "dsa": 15
+  },
+  "Grab": {
+    "coding": 74,
+    "dsa": 7,
+    "miscellaneous": 5
+  },
+  "Groupon": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "Intuit": {
+    "coding": 62,
+    "dsa": 24
+  },
+  "LinkedIn": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "Microsoft": {
+    "coding": 67,
+    "dsa": 19
+  },
+  "MobiKwik": {
+    "coding": 46,
+    "dsa": 17,
+    "dbms": 2,
+    "miscellaneous": 21
+  },
+  "NEC Technologies": {
+    "coding": 55,
+    "dsa": 14,
+    "dbms": 3,
+    "operating_system": 5,
+    "miscellaneous": 9
+  },
+  "Netflix": {
+    "coding": 64,
+    "dsa": 21,
+    "technical": 1
+  },
+  "Ola Cabs": {
+    "coding": 64,
+    "dsa": 22
+  },
+  "Palantir": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "PayPal": {
+    "coding": 63,
+    "dsa": 14,
+    "operating_system": 1,
+    "miscellaneous": 8
+  },
+  "Samsung": {
+    "coding": 12,
+    "dsa": 26,
+    "dbms": 3,
+    "operating_system": 18,
+    "miscellaneous": 38,
+    "general": 33
+  },
+  "Thoughtworks": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "Twitter": {
+    "coding": 64,
+    "dsa": 22
+  },
+  "Uber": {
+    "coding": 50,
+    "dsa": 27,
+    "miscellaneous": 9
+  },
+  "Walmart Labs": {
+    "coding": 60,
+    "dsa": 26
+  },
+  "Yatra.com": {
+    "coding": 36,
+    "dsa": 34,
+    "dbms": 8,
+    "operating_system": 5,
+    "miscellaneous": 3
+  },
+  "Zomato": {
+    "coding": 63,
+    "dsa": 22,
+    "miscellaneous": 1
+  }
+}

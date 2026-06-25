@@ -1,0 +1,697 @@
+{
+  "company": "Thoughtworks",
+  "sections": {
+    "coding": [
+      {
+        "id": "8d90377abe93f1e0",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "28368e465159704c",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Thoughtworks — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4d96e568aea13598",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "df17c2016eaf3232",
+        "question": "Reverse a linked list in groups of size k. (Context: Thoughtworks — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8b0231f7806fde93",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9a0e785b1b8d64a6",
+        "question": "Find the longest substring without repeating characters. (Context: Thoughtworks — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3a84e4cd437e561f",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "622c491ea864d5a9",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Thoughtworks — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e7a1df8ca3849e64",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4b105eb17ba5a838",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Thoughtworks — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "999f8dcd00e5a7aa",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8e687e46a5ea1353",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Thoughtworks — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a031782e08b985de",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "909036600b06e85b",
+        "question": "Find the median from a data stream. (Context: Thoughtworks — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1f709195616cc74a",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "88965802bfdae41a",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8fe9756ad2f17f8c",
+        "question": "Serialize and deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3fd96426e195fc48",
+        "question": "Serialize and deserialize a binary tree. (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b47f8df13744d8b4",
+        "question": "Find all anagrams of a pattern in a string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f0f4a95c01dfd359",
+        "question": "Find all anagrams of a pattern in a string. (Context: Thoughtworks — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "edd5a44b898c84df",
+        "question": "Given a rotated sorted array, search for a target value.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e8a2a08e9c7913e2",
+        "question": "Given a rotated sorted array, search for a target value. (Context: Thoughtworks — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b3dd95930921e47b",
+        "question": "Implement a trie with insert, search, and prefix search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1c34b6eea8eade23",
+        "question": "Implement a trie with insert, search, and prefix search. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5da7863753a84b02",
+        "question": "Find the shortest path in a grid with obstacles elimination.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7acbe5b9b0dd58b8",
+        "question": "Find the shortest path in a grid with obstacles elimination. (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "923a761045344c9e",
+        "question": "Given an array, find the maximum product subarray.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "42ab21b8a6c481b6",
+        "question": "Given an array, find the maximum product subarray. (Context: Thoughtworks — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "763aaaba48e228a5",
+        "question": "Detect cycle in a directed graph.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9ba0563f2ac2897c",
+        "question": "Detect cycle in a directed graph. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "44dd62f237c613b2",
+        "question": "Find the kth largest element in an unsorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c5e8d3bb2ceb985e",
+        "question": "Find the kth largest element in an unsorted array. (Context: Thoughtworks — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b8df9f730d6b6ccb",
+        "question": "Given intervals, merge overlapping intervals.",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5a01e6a495d0a929",
+        "question": "Given intervals, merge overlapping intervals. (Context: Thoughtworks — software engineering)",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d43154ab975d142f",
+        "question": "Implement pow(x, n) with O(log n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9ac9f19102f25f0f",
+        "question": "Implement pow(x, n) with O(log n) time. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "04995ae5ae35539e",
+        "question": "Find the number of islands in a 2D grid.",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4ab4638567ceda15",
+        "question": "Find the number of islands in a 2D grid. (Context: Thoughtworks — software engineering)",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8de87e044a3b9c7a",
+        "question": "Given a string, find the longest palindromic substring.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d7f177a55edda78b",
+        "question": "Given a string, find the longest palindromic substring. (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "539b01c3d1dd6056",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0a3a85670dd75eee",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1). (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "27b330b4f8979a1b",
+        "question": "Find the edit distance between two strings.",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "29808aa5668ec8b2",
+        "question": "Find the edit distance between two strings. (Context: Thoughtworks — software engineering)",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fbefba320ac45087",
+        "question": "Given a binary search tree, validate whether it is a valid BST.",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3d6272ac1d7088df",
+        "question": "Given a binary search tree, validate whether it is a valid BST. (Context: Thoughtworks — software engineering)",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "19d00e8b60a716d3",
+        "question": "Find the word break problem solution for a given dictionary.",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a6e0716e4ccfc121",
+        "question": "Find the word break problem solution for a given dictionary. (Context: Thoughtworks — software engineering)",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c32e34551dc4b97f",
+        "question": "Implement next permutation for an array of numbers.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "aefdfd2be5c90205",
+        "question": "Implement next permutation for an array of numbers. (Context: Thoughtworks — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b1b1a86089550124",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "193c5ae613a5147e",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "37d78cc250997257",
+        "question": "Find maximum sum path in a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "80813ce4b0c859ad",
+        "question": "Find maximum sum path in a binary tree. (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "13fa66eff6160439",
+        "question": "Implement regular expression matching with '.' and '*'.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1ed488e71f389668",
+        "question": "Implement regular expression matching with '.' and '*'. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6bdcd4154ed02952",
+        "question": "Given a string of digits, return all possible letter combinations.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2aabe6db636489f3",
+        "question": "Given a string of digits, return all possible letter combinations. (Context: Thoughtworks — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ad496b4beb268fd3",
+        "question": "Find minimum window substring containing all characters of a pattern.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c426144d25a44189",
+        "question": "Find minimum window substring containing all characters of a pattern. (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "468607eba0886546",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "254a5cf908b4cf5c",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "507454af2d33613d",
+        "question": "What is the difference between a stack and a queue? Give real-world examples.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fc034cf0c403e4bb",
+        "question": "What is the difference between a stack and a queue? Give real-world examples. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "60480ba7ecd989da",
+        "question": "How does a hash map work internally? Explain collision resolution strategies.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8aa0fe459607886b",
+        "question": "How does a hash map work internally? Explain collision resolution strategies. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a6eaff6710cab56a",
+        "question": "Compare array list vs linked list for insert, delete, and random access.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c9190bb65a20d100",
+        "question": "Compare array list vs linked list for insert, delete, and random access. (Context: Thoughtworks — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d8326967d3421fea",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5e570fd2b73d61a0",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used? (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0dbffda1c665aec2",
+        "question": "Explain BFS vs DFS with use cases in interview problems.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7976caf91e48a05b",
+        "question": "Explain BFS vs DFS with use cases in interview problems. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a7735a0ab74b3ad9",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4248247290f99b4f",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure. (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6162e319d864eac7",
+        "question": "How does Dijkstra's algorithm work and when does it fail?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "93f93c790a57fdd7",
+        "question": "How does Dijkstra's algorithm work and when does it fail? (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "62c3363d488c8cc7",
+        "question": "Explain topological sorting and where it is used.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "879b960af7e9cb20",
+        "question": "Explain topological sorting and where it is used. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5b1886a20296e87d",
+        "question": "What is the difference between recursion and iteration for tree traversals?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cbf230d028af6eb1",
+        "question": "What is the difference between recursion and iteration for tree traversals? (Context: Thoughtworks — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e0f697919ebe9e84",
+        "question": "How would you detect a cycle in a linked list?",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c37bc355fe3cc5bb",
+        "question": "How would you detect a cycle in a linked list? (Context: Thoughtworks — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d1600cec651e377f",
+        "question": "Explain heap data structure and its use in priority queues.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eaa1f2568f918e39",
+        "question": "Explain heap data structure and its use in priority queues. (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a5fbef1a0f7ac2c1",
+        "question": "What is trie and when would you prefer it over a hash map?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7522955c699faf63",
+        "question": "What is trie and when would you prefer it over a hash map? (Context: Thoughtworks — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Thoughtworks.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

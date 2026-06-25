@@ -1,0 +1,12 @@
+{
+  "train": 4680,
+  "val": 520,
+  "total": 5200,
+  "dims": [
+    "relevance",
+    "correctness",
+    "depth",
+    "communication",
+    "structure"
+  ]
+}

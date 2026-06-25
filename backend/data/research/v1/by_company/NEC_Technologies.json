@@ -1,0 +1,703 @@
+{
+  "company": "NEC Technologies",
+  "sections": {
+    "coding": [
+      {
+        "id": "d4e0ded2ff54c540",
+        "question": "Write a program that accepts a decimal number and outputs the binary representation of that number.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9eb64f6c11bc7137",
+        "question": "Given ASCII values, output the string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c2d236f6b904a1c6",
+        "question": "You are given an m x n 2D matrix. Rotate the image by 90 degrees (anti-clockwise).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "54e0e7d42a11254e",
+        "question": "Write a program to convert infix to postfix.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d6f7ce374c92c3c4",
+        "question": "Write a program to print transpose of a given matrix.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "666ec99ea9a64a51",
+        "question": "Given a 2D array, find the maximum sum subarray in it.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "641c588052c9ff3d",
+        "question": "Given a binary search tree, write a function kth smallest to find the kth smallest element in it.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7db3d015cf99978d",
+        "question": "Given a text file, I want the words to be scanned from it, along with their occurrences, sort them in descending order, & display the top 10 words.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eb0a524855078adb",
+        "question": "Find the second-largest number.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "298240696749a85d",
+        "question": "Find whether two strings are an anagram of each other.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "005549fb66af7adf",
+        "question": "Find missing number unsorted contiguous array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fb2e1dee6d569f75",
+        "question": "Find Number of common Guests in all parties if the user gives the input in the following format.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3162863700c7a983",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9c8b3354dda217c9",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: NEC Technologies — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "07a259c69e6c0877",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bf70e7b93796757e",
+        "question": "Reverse a linked list in groups of size k. (Context: NEC Technologies — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3bed7e0168f6f07e",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5cd38e59669528bd",
+        "question": "Find the longest substring without repeating characters. (Context: NEC Technologies — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d0d3b1f3e7d3f6ed",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "76fd42040d415ff1",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: NEC Technologies — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0a0dafb94977769a",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "152b587626dca871",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: NEC Technologies — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cbf8f5386a21e864",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "36d7d1f5a1fb0ad7",
+        "question": "Implement LRU cache with O(1) get and put. (Context: NEC Technologies — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "468cf2d54dd23c80",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "298bbf608e04bb15",
+        "question": "Find the median from a data stream. (Context: NEC Technologies — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e4c79b4019fe7393",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e0292be4362e79b4",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s. (Context: NEC Technologies — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "340450941bf8cb56",
+        "question": "Serialize and deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3ec88350b366e9f3",
+        "question": "Serialize and deserialize a binary tree. (Context: NEC Technologies — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4b9ba5101a12b5e6",
+        "question": "Find all anagrams of a pattern in a string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "274228e7cf00b69a",
+        "question": "Find all anagrams of a pattern in a string. (Context: NEC Technologies — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "60e36b82336739a9",
+        "question": "Given a rotated sorted array, search for a target value.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d8322222e51491d4",
+        "question": "Given a rotated sorted array, search for a target value. (Context: NEC Technologies — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "557118c0dde01c7a",
+        "question": "Implement a trie with insert, search, and prefix search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6e60af7b7b68b73c",
+        "question": "Implement a trie with insert, search, and prefix search. (Context: NEC Technologies — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c7b0de207738f3bf",
+        "question": "Find the shortest path in a grid with obstacles elimination.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "47d0b94da274aad5",
+        "question": "Find the shortest path in a grid with obstacles elimination. (Context: NEC Technologies — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "526b39a8069da498",
+        "question": "Given an array, find the maximum product subarray.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e8aaf4ca05e95060",
+        "question": "Given an array, find the maximum product subarray. (Context: NEC Technologies — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2c743f5e23870a3f",
+        "question": "Detect cycle in a directed graph.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "129a2c85c7408c76",
+        "question": "Detect cycle in a directed graph. (Context: NEC Technologies — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "66214089b1e3cf28",
+        "question": "Find the kth largest element in an unsorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7210a13c1a200e4e",
+        "question": "Find the kth largest element in an unsorted array. (Context: NEC Technologies — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cb285545fa4bf5db",
+        "question": "Given intervals, merge overlapping intervals.",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eccee63f12e0fb9e",
+        "question": "Given intervals, merge overlapping intervals. (Context: NEC Technologies — software engineering)",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7abfe4b87dd4671d",
+        "question": "Implement pow(x, n) with O(log n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7608faceba021272",
+        "question": "Implement pow(x, n) with O(log n) time. (Context: NEC Technologies — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3bbbf7e6bf0baaa9",
+        "question": "Find the number of islands in a 2D grid.",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f5e4082c884ff11f",
+        "question": "Find the number of islands in a 2D grid. (Context: NEC Technologies — software engineering)",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "25573e65110d3652",
+        "question": "Given a string, find the longest palindromic substring.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9aaaf675a77e1754",
+        "question": "Given a string, find the longest palindromic substring. (Context: NEC Technologies — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "73a36c5b371a36f2",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a768f8a295b0ed98",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1). (Context: NEC Technologies — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "45551acace63bc3a",
+        "question": "Find the edit distance between two strings.",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "02a20ad31b892866",
+        "question": "Write a recursive function to print reverse of a Linked List.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "040a20b938db55a7",
+        "question": "Write a program in C/C++ to sort an Array in O(n).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b8df809ea62d6574",
+        "question": "WAP to reverse a linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "72f3a165516aeebd",
+        "question": "Implement queue.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fd1b7cd735235643",
+        "question": "What are the advantages of a doubly linked list?",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ef28fe8643a284be",
+        "question": "Find the largest Number of Array using recursion.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a5004294e3d5f058",
+        "question": "WAP to sort a Linked List.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "40e883ea1f548a5d",
+        "question": "Find the centre element of a linked list?",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f509d5c6efae2761",
+        "question": "Print left the view of Binary Search Tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "63352bec3d3a1e81",
+        "question": "Implement a circular linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2ddcc6ba3c1f094f",
+        "question": "Write a program on palindrome linked list and stack implementation using a linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "be56b95de8149fb4",
+        "question": "Program to remove duplicates from the linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2bb9eb89ee83e201",
+        "question": "Program to detect if there is any loop in the linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cc1b4efe1541c5a1",
+        "question": "Write a program for a maximum of 4 numbers in good readable, optimized code.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dbms": [
+      {
+        "id": "ef4b8ecacd4ff772",
+        "question": "What are DBMS, RDBMS and ORDBMS?",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "605fb1517bcaba30",
+        "question": "What is DDL, DML and DCL?",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ecbc2f076a754661",
+        "question": "What has clustered indexing?",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "operating_system": [
+      {
+        "id": "17119ea845237d2b",
+        "question": "Define Semaphores, Fragmentation, Normalization?",
+        "answer": "1NF: atomic columns. 2NF: no partial dependency on composite key. 3NF: no transitive dependency. Reduces redundancy; may denormalize for read performance.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3cc0acf8af3ee44a",
+        "question": "Discuss Deadlock, Cyclic wait.",
+        "answer": "Four conditions: mutual exclusion, hold-and-wait, no preemption, circular wait. Prevent by ordering locks, timeouts, or banker's algorithm.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cfb774adeaa4f42f",
+        "question": "What is thrashing?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "212dfbb5c993aa4c",
+        "question": "What is the difference between a mutex and binary semaphore?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "49ce2d1e1f8df1be",
+        "question": "Can you name some IPC(Inter-process communication) mechanism?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "miscellaneous": [
+      {
+        "id": "f27234bf47c9c7a4",
+        "question": "How to implement a class in C?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2ffa28ebf7a63895",
+        "question": "What is a template?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1076128d14f9dc3c",
+        "question": "How can you make the same variable accessible to two C programs?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2bdfdc74e8dc0df8",
+        "question": "Define Synchronization, Desynchronization, Interim, Manipulation(Java).",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3d6b5070d37e16ff",
+        "question": "Discussion about Volatile(in C).",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3bcd2ae953ed8b4f",
+        "question": "What is a virtual function in C++? What is a pure virtual function?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "87502397039e9132",
+        "question": "What is dual-core, cache m/m, the throughput of processors?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2ef0b287f6bb16ac",
+        "question": "What is the difference between virtual and static class?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8b71b6813fc26dcc",
+        "question": "Implement operator overloading in C++?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for NEC Technologies.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

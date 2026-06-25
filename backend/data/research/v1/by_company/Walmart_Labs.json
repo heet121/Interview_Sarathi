@@ -1,0 +1,697 @@
+{
+  "company": "Walmart Labs",
+  "sections": {
+    "coding": [
+      {
+        "id": "614653e480764cb1",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eabd212b300215c1",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Walmart Labs — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "56bb5046fa334d96",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "833d3d6e43b0c169",
+        "question": "Reverse a linked list in groups of size k. (Context: Walmart Labs — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "14f3d573c4fd1e06",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cd8ed2bcfc3299c1",
+        "question": "Find the longest substring without repeating characters. (Context: Walmart Labs — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9cd2737b614f3b85",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "60c18dcd2f84c7c7",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Walmart Labs — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "336344e9b5baf4de",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "80fbc51a1715c148",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Walmart Labs — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f7c73a1360f9602e",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f8633d1f99efff52",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Walmart Labs — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cb99467143eb5728",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a266123acbeeab95",
+        "question": "Find the median from a data stream. (Context: Walmart Labs — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8e09f3e208269a8d",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fac1948fec43cd85",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4fb76fd24e956c57",
+        "question": "Serialize and deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1df2bc6ab25372da",
+        "question": "Serialize and deserialize a binary tree. (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e038159d8a27438b",
+        "question": "Find all anagrams of a pattern in a string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fd918689a840fc4d",
+        "question": "Find all anagrams of a pattern in a string. (Context: Walmart Labs — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "35426cdfe8f3925e",
+        "question": "Given a rotated sorted array, search for a target value.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b24f43f3113c91ba",
+        "question": "Given a rotated sorted array, search for a target value. (Context: Walmart Labs — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "274bfa4aec13ff67",
+        "question": "Implement a trie with insert, search, and prefix search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "79f57737f3d0a3c7",
+        "question": "Implement a trie with insert, search, and prefix search. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "74a68f9564edef21",
+        "question": "Find the shortest path in a grid with obstacles elimination.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "40f299146acd051c",
+        "question": "Find the shortest path in a grid with obstacles elimination. (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6b4773da816ba144",
+        "question": "Given an array, find the maximum product subarray.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3f11229804f90f5e",
+        "question": "Given an array, find the maximum product subarray. (Context: Walmart Labs — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a151633bf2a6e1e1",
+        "question": "Detect cycle in a directed graph.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "474b056e4e26e0ee",
+        "question": "Detect cycle in a directed graph. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dab016a147e6fbed",
+        "question": "Find the kth largest element in an unsorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "30827b7873ff12fa",
+        "question": "Find the kth largest element in an unsorted array. (Context: Walmart Labs — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5351cebd7aba021e",
+        "question": "Given intervals, merge overlapping intervals.",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a71dbe9beaf8694c",
+        "question": "Given intervals, merge overlapping intervals. (Context: Walmart Labs — software engineering)",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1708a6058b0028e8",
+        "question": "Implement pow(x, n) with O(log n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ccff61ed93bc484b",
+        "question": "Implement pow(x, n) with O(log n) time. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "06eceb85dded1fe3",
+        "question": "Find the number of islands in a 2D grid.",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d4417e1758365b40",
+        "question": "Find the number of islands in a 2D grid. (Context: Walmart Labs — software engineering)",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1bb4f9abdbd5489b",
+        "question": "Given a string, find the longest palindromic substring.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "acf3c0d791c21322",
+        "question": "Given a string, find the longest palindromic substring. (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6e5f797d9d297988",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "950c6da37dc844e4",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1). (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3e70a86669e63ff0",
+        "question": "Find the edit distance between two strings.",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5e4a8c11d3345430",
+        "question": "Find the edit distance between two strings. (Context: Walmart Labs — software engineering)",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "acc77ce9e0500b0e",
+        "question": "Given a binary search tree, validate whether it is a valid BST.",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5a434d2a6784828c",
+        "question": "Given a binary search tree, validate whether it is a valid BST. (Context: Walmart Labs — software engineering)",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "34a677aa9c439d13",
+        "question": "Find the word break problem solution for a given dictionary.",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "66e98faa7ac7e6c8",
+        "question": "Find the word break problem solution for a given dictionary. (Context: Walmart Labs — software engineering)",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "57d63cde2f9b08e4",
+        "question": "Implement next permutation for an array of numbers.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1aac13404da87edf",
+        "question": "Implement next permutation for an array of numbers. (Context: Walmart Labs — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "822e21219d9847b8",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5d579b70c23fcc3b",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4e7fcc6bb2229931",
+        "question": "Find maximum sum path in a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2a879cdcde8dcd20",
+        "question": "Find maximum sum path in a binary tree. (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0bb89d54ee21bba9",
+        "question": "Implement regular expression matching with '.' and '*'.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "28811282a81b30b6",
+        "question": "Implement regular expression matching with '.' and '*'. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b33fa7b734779521",
+        "question": "Given a string of digits, return all possible letter combinations.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cb1dc3aac7dc3b39",
+        "question": "Given a string of digits, return all possible letter combinations. (Context: Walmart Labs — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ed811b2176d5886a",
+        "question": "Find minimum window substring containing all characters of a pattern.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "00e9d3ef84b55ef0",
+        "question": "Find minimum window substring containing all characters of a pattern. (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "4b421b26da1ad292",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f340eafdb37ba528",
+        "question": "Explain the time and space complexity of Quick Sort and when it degrades. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "afa8925afc850470",
+        "question": "What is the difference between a stack and a queue? Give real-world examples.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "509218636a36905b",
+        "question": "What is the difference between a stack and a queue? Give real-world examples. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "23b87aab23a84fa0",
+        "question": "How does a hash map work internally? Explain collision resolution strategies.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4b18e0b8c7275155",
+        "question": "How does a hash map work internally? Explain collision resolution strategies. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4e16c0cbd49a2a0a",
+        "question": "Compare array list vs linked list for insert, delete, and random access.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3b549193788ce6bf",
+        "question": "Compare array list vs linked list for insert, delete, and random access. (Context: Walmart Labs — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cd6c0a0834864bb3",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e7e3e119e2885764",
+        "question": "What is a balanced binary search tree? Why are AVL and Red-Black trees used? (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e4cc8d28a774f637",
+        "question": "Explain BFS vs DFS with use cases in interview problems.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cd9172e7069db6ff",
+        "question": "Explain BFS vs DFS with use cases in interview problems. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b399cb650781225f",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6d78e4abb7785ca6",
+        "question": "What is dynamic programming? Explain overlapping subproblems and optimal substructure. (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e3da890230ca5cc1",
+        "question": "How does Dijkstra's algorithm work and when does it fail?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "adea1f6f49094d11",
+        "question": "How does Dijkstra's algorithm work and when does it fail? (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d6960c94d8cf4b92",
+        "question": "Explain topological sorting and where it is used.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "34ff149494a579d1",
+        "question": "Explain topological sorting and where it is used. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0cf62f66e7cf2746",
+        "question": "What is the difference between recursion and iteration for tree traversals?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "27fa0b1e944cc424",
+        "question": "What is the difference between recursion and iteration for tree traversals? (Context: Walmart Labs — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2772d3af87cab906",
+        "question": "How would you detect a cycle in a linked list?",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1e4e27b2f0ed34ae",
+        "question": "How would you detect a cycle in a linked list? (Context: Walmart Labs — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Floyd's tortoise-hare: slow+fast pointers; if they meet, cycle exists. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b68d257a1878df0e",
+        "question": "Explain heap data structure and its use in priority queues.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "db0c0433eaca6a08",
+        "question": "Explain heap data structure and its use in priority queues. (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b2769e24d8d99f56",
+        "question": "What is trie and when would you prefer it over a hash map?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "266006be31a41439",
+        "question": "What is trie and when would you prefer it over a hash map? (Context: Walmart Labs — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Walmart Labs.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

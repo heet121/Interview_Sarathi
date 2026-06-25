@@ -1,0 +1,33 @@
+# Python
+backend/venv/
+venv/
+
+# ML model weights (too large for GitHub — download separately)
+backend/models/judge/
+__pycache__/
+*.pyc
+*.pyo
+
+# Database & runtime data
+*.db
+backend/interview_sarathi.db
+backend/uploads/
+backend/dataset/
+pip_install.log
+
+# Secrets (.env holds API keys - keep out of git)
+backend/.env
+frontend/.env
+frontend/.env.local
+deploy/.env.production
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

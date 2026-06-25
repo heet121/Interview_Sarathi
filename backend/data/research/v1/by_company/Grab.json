@@ -1,0 +1,699 @@
+{
+  "company": "Grab",
+  "sections": {
+    "coding": [
+      {
+        "id": "bb17bcfbb627e4cd",
+        "question": "In an integer array, find a pair of numbers which add up to a given number.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9ffe5d9ec4656273",
+        "question": "Write a function that add 1 to LinkedList number",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "35e440f8f7d336af",
+        "question": "Find the count of all perfect squares between two numbers a and b.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dc30a32067605230",
+        "question": "Given an array of N integers, find the longest leading fragment of the array which contains equal no. of X and Y. Expected time complexity is O(n).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f9547dcf31807230",
+        "question": "Now there's an array filled with elements. Each element value is a date for a person to travel. This array has already been sorted in ascending order, like {1,3,4,5,11,12,23,24,30}.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b6b10a746ee7ae95",
+        "question": "So for any given array from a person to travel, how can this person cost least?",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c43cde5377ed0842",
+        "question": "Given N rows of seats in a movie theatre, each row with seats labelled A to K some seats are reserved. A 3 person family want seats next to each other (seats across the aisle is not allowed), return all available options.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8d0f5157d58be00a",
+        "question": "Design a class to calculate the moving average of last N numbers in a stream of real numbers.",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1540bcf87f2566e3",
+        "question": "Given an array find the next greater element.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "20a2c3a90e3cdc52",
+        "question": "Find the distance between any two nodes of the tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f2039f895c99ec1e",
+        "question": "Write a function getAllDependencies(packageName) which takes in packageName parameter as a string and returns an array of strings of both direct and all indirect (recursive) dependencies of the given package, fetched from the API described above. For example, if A depends on B, and B depends on C and D, getAllDependencies('A') should return ['B', 'C', 'D']. The result should not contain duplicates.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ca457194a61e177c",
+        "question": "In a correct implementation, getAllDependencies(\"forever\") should return an array with length about 200+ (as of the time we wrote this question and might be different in the future).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "88cd02e958a19a0d",
+        "question": "The function should return the array (or a promise of the array if your function is async), instead of just printing the result.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bed94783a35684e6",
+        "question": "Find the total number of heaps that could be formed with n distinct integers. It has a dynamic programming approach.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2bad17267f3148e6",
+        "question": "Write a program which takes JSON as input and gives prettified JSON.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f886a0ba21bd309a",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3f3afe85f3cd4068",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Grab — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0e5775a6676a14ce",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d96d762fa10ba2cb",
+        "question": "Reverse a linked list in groups of size k. (Context: Grab — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "011dabe1b3ab054f",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "84520920b4705c8a",
+        "question": "Find the longest substring without repeating characters. (Context: Grab — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d776ef5fca8b28f2",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3ffd73e2a4a0299c",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Grab — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6268e175cc2f82ff",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4999f0cfe3ce3974",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Grab — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "afbcb80c5c5b3d18",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eccb70f987550fcc",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Grab — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "de336cac6b41c4aa",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f7f0499e2329df4b",
+        "question": "Find the median from a data stream. (Context: Grab — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "650ce909ccdec55f",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1cf8cdc56fa5f201",
+        "question": "Given a matrix of 0s and 1s, find the largest square submatrix of all 1s. (Context: Grab — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c10a8817afa8409e",
+        "question": "Serialize and deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "901f0e9989412645",
+        "question": "Serialize and deserialize a binary tree. (Context: Grab — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a57a325445cadf3e",
+        "question": "Find all anagrams of a pattern in a string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d001df4b9c379766",
+        "question": "Find all anagrams of a pattern in a string. (Context: Grab — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "901057e4050ec4ce",
+        "question": "Given a rotated sorted array, search for a target value.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6ab0bdcf32b989ab",
+        "question": "Given a rotated sorted array, search for a target value. (Context: Grab — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "af5b00f7e97d313b",
+        "question": "Implement a trie with insert, search, and prefix search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "875dfe922d56d134",
+        "question": "Implement a trie with insert, search, and prefix search. (Context: Grab — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e716d5b5a2abba7e",
+        "question": "Find the shortest path in a grid with obstacles elimination.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3bb202fe3fe5c445",
+        "question": "Find the shortest path in a grid with obstacles elimination. (Context: Grab — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f0045bf8e3b5cbd4",
+        "question": "Given an array, find the maximum product subarray.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c1b88b164e0dd4bb",
+        "question": "Given an array, find the maximum product subarray. (Context: Grab — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5deb0d8f290a1487",
+        "question": "Detect cycle in a directed graph.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9d0f1d7443a563bc",
+        "question": "Detect cycle in a directed graph. (Context: Grab — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "89606cfc52cd48ba",
+        "question": "Find the kth largest element in an unsorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c7a4170d7b5db7e5",
+        "question": "Find the kth largest element in an unsorted array. (Context: Grab — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2efa8c828087f4d8",
+        "question": "Given intervals, merge overlapping intervals.",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "df79dd50f33091f2",
+        "question": "Given intervals, merge overlapping intervals. (Context: Grab — software engineering)",
+        "answer": "Sort by start, iterate merging if current overlaps previous (start <= prev.end). Time O(n log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "31d2dca97b7e8176",
+        "question": "Implement pow(x, n) with O(log n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c783a08d82912e4b",
+        "question": "Implement pow(x, n) with O(log n) time. (Context: Grab — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ce6122b5f9e2d5c7",
+        "question": "Find the number of islands in a 2D grid.",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c8e816145684145b",
+        "question": "Find the number of islands in a 2D grid. (Context: Grab — software engineering)",
+        "answer": "DFS/BFS on grid: mark visited '1' cells, count connected components. Time O(rows×cols).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1f6550447c9c2ac1",
+        "question": "Given a string, find the longest palindromic substring.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6b45d3b5a6a431f4",
+        "question": "Given a string, find the longest palindromic substring. (Context: Grab — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b204020b654a7930",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c0bf8527bdb4733a",
+        "question": "Implement a min-stack supporting push, pop, top, and getMin in O(1). (Context: Grab — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f04beac2a0294738",
+        "question": "Find the edit distance between two strings.",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "673fa88b1a776086",
+        "question": "Find the edit distance between two strings. (Context: Grab — software engineering)",
+        "answer": "DP: dp[i][j] = min edits to convert s1[:i] to s2[:j]. Fill using insert/delete/replace. Time O(mn), space O(mn) or O(min(m,n)) optimized.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a8b206f6224a12d5",
+        "question": "Given a binary search tree, validate whether it is a valid BST.",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0b4aa5fbb3d1c8f0",
+        "question": "Given a binary search tree, validate whether it is a valid BST. (Context: Grab — software engineering)",
+        "answer": "In-order traversal should be strictly increasing, or pass min/max bounds recursively.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "688979e620f823f8",
+        "question": "Find the word break problem solution for a given dictionary.",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "99cd25b44594fb3f",
+        "question": "Find the word break problem solution for a given dictionary. (Context: Grab — software engineering)",
+        "answer": "DP: dp[i] = true if s[:i] can be segmented using dictionary words ending at i.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1f88923d82a9f010",
+        "question": "Implement next permutation for an array of numbers.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "652a454e7fe3d50d",
+        "question": "Implement next permutation for an array of numbers. (Context: Grab — software engineering)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "209b76e0295b9aa0",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "35b71284f89da467",
+        "question": "Given a list of tasks with cooldown, find minimum intervals needed. (Context: Grab — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ccc788c2d41de730",
+        "question": "Find maximum sum path in a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7f1a3cc2e2605b6f",
+        "question": "Find maximum sum path in a binary tree. (Context: Grab — software engineering)",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3527afce39c128c1",
+        "question": "Implement regular expression matching with '.' and '*'.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5f785b7eaa109292",
+        "question": "Implement regular expression matching with '.' and '*'. (Context: Grab — software engineering)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "56f9f914d0660d6b",
+        "question": "Given a string of digits, return all possible letter combinations.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f6c79e9ab4ff2c34",
+        "question": "Given a string of digits, return all possible letter combinations. (Context: Grab — software engineering)",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f75373da9dd0f6c5",
+        "question": "Find minimum window substring containing all characters of a pattern.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "8283e576e6f82a09",
+        "question": "Top view of the tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b5d003657fc3b165",
+        "question": "Right view of a binary search tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6231eee5a7fab62e",
+        "question": "Find out the last nth node in a linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cef6264b7c09bd18",
+        "question": "Write code for column-wise tree traversal.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "21f92c37976304d7",
+        "question": "Reverse a sentence of words.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1fe5e9e3a5a36222",
+        "question": "How do you check that a given binary tree is a valid balanced binary search tree?",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b4ba4d99ae6ce516",
+        "question": "Given an array of unsorted positive integers, find the length of maximum subarray containing consecutive integers.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "miscellaneous": [
+      {
+        "id": "0483bfb993634144",
+        "question": "What is the use of join() and yield() in Thread?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b978881af1d3f63f",
+        "question": "What is a singleton class and how to protect it from reflection?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cd1a05c86956d9b3",
+        "question": "Explain JVM architecture.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fa3eb08aebfb133a",
+        "question": "What is a Stack Frame?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "155ee9cdb0cc9744",
+        "question": "What are dockers and containers?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Grab.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

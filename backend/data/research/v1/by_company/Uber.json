@@ -1,0 +1,699 @@
+{
+  "company": "Uber",
+  "sections": {
+    "coding": [
+      {
+        "id": "caa5ffe05b9be96c",
+        "question": "Given a sorted array arr[] and a number x, write a function that counts the occurrences of x in arr[]. (O(Log(N)))",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f8c1a0621bb265ec",
+        "question": "Write a program to check whether Sudoku is valid or not.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4daaef51a43f9ac4",
+        "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "77104e3afb6a1ab1",
+        "question": "Given an array of words, print the count of all anagrams together in sorted order (increasing order of counts).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "96521f17d4f8432c",
+        "question": "For example, if the given array is {“cat”, “dog”, “tac”, “god”, “act”}, then grouped anagrams are “(dog, god) (cat, tac, act)”. So the output will be 2 3.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "10a3d04f910b3a67",
+        "question": "Given a roman numeral, convert it to an integer.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9a3a4c3f9579e266",
+        "question": "Given a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3cde4c70c1676704",
+        "question": "Given a digit string, return all possible letter combinations that the number could represent in a T9 keypad.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "49b34607dfa278fe",
+        "question": "Given two list of unsorted intervals V1 and V2 write 2 functions 'OR ' and 'AND' to return a new list",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "abc48b754a2ea365",
+        "question": "Given an unsorted array of integers, find the length of the longest consecutive elements sequence.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6af47d2e321e2ec6",
+        "question": "Your algorithm should run in O(n) complexity.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9a429b9efb1743f4",
+        "question": "Given n number of operations, provide the sequence of choices that gives maximum characters in the notepad.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eba1a26c825cee79",
+        "question": "Given a non-empty array containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "342671c2cadd0956",
+        "question": "Given a list of system packages, some packages cannot be installed until the other packages are installed. Provide a valid sequence to install all of the packages.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6d86862f56624373",
+        "question": "Given a string s, partition s such that every substring of the partition is a palindrome.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a43b5b73df0ae5f8",
+        "question": "Given a string s, return all the palindromic permutations ( without duplicates), of it. Return an empty array if no palindromic combinations can be formed.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8e26897b3d21dee4",
+        "question": "Given an input string and ordering string, need to return true if the ordering string is present in Input string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7c0a00e37fa3152a",
+        "question": "Given a sorted dictionary (array of words) of an alien language, find order of characters in the language.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "03544abf3183e026",
+        "question": "Given an array of words and a length L, format the text such that each line has exactly L characters and is fully (left and right) justified.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4193ce13ee2bfb49",
+        "question": "Given an api which returns an array of chemical names and an array of chemical symbols, display the chemical names with their symbol surrounded by square brackets:",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0e460c941d111b12",
+        "question": "Chemicals array: ['Amazon', 'Microsoft', 'Google']",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9c173214a4714a86",
+        "question": "WAP to take one element from each of the array add it to the target sum. Print all those three-element combinations.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dced608e357284b7",
+        "question": "Given two numbers represented by two linked lists, write a function that returns sum list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "28295c61fb615e3c",
+        "question": "Write an efficient method that takes stockPricesYesterday and returns the best profit I could have made from 1 purchase and 1 sale of 1 Apple stock yesterday.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a5cf80b3d82c0d86",
+        "question": "Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1f13c65e5d45ae78",
+        "question": "Given an array of Ints find a maximum sum of non adjacent elements.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5d89ce4338ff8959",
+        "question": "Given an input string of numbers like 121, find all permutations of that number in the same order for the corresponding letters for each number so 121 => 1 2 1, 12 1, and 1 21 which is ABA, LA, and AT .",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "054021ed14597268",
+        "question": "Given string a and b, with b containing all distinct characters, find the longest common subsequence's length.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "371f1761273b3b34",
+        "question": "Given a 4\\*n block, find number of different ways of filling it with 1*2 smaller blocks. Rotation of smaller blocks is allowed.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "52c1730bea82b34a",
+        "question": "You have a sorted array of integers. Find the element where the array index is equal to the value of the corresponding element. Or return that no such element exists.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "937b932b723a027e",
+        "question": "Given an array of numbers, for every index i, find nearest index j such that a[j] > a[i].If such an index doesn’t exist for i, ­1 should be printed.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3619b369d87e06bc",
+        "question": "Given a string A and B, find the smallest substring of A that contains all the characters from B. (implement solution in O(n), keep in mind chars in B can repeat).",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b3d91e3226118422",
+        "question": "Given a character limit and a message, split the message up into annotated chunks without cutting words as,",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1d454f2395f3174a",
+        "question": "Write a function to tell us if a full deck of cards shuffledDeck is a single riffle of two other halves half1 and half2.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "857df11f2be4fbe9",
+        "question": "Given a number N. print in how many ways it can be represented as N = a+b+c+d , 1< =a< =b< =c< = d; 1<=N< = 5000",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0ee00181cb68f1b8",
+        "question": "Given two number l and r (l<=r<=10^6) find most frequent digit among all prime numbers between l and r inclusive. if frequency is same print highest digit.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "363d59fab817bfe8",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f3cbe1c48ae1f5b1",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Uber — marketplace)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2fcc5d4ebfa6bb29",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "397d6b486405213d",
+        "question": "Reverse a linked list in groups of size k. (Context: Uber — marketplace)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d505361ffedffd24",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1819a29e1ca90aa1",
+        "question": "Find the longest substring without repeating characters. (Context: Uber — marketplace)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "860c39fefdbc7b86",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f8db40de24c93923",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Uber — marketplace)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fd1c1288ab48f1c8",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a8c9cfb8e8baa1e1",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Uber — marketplace)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1dcbd04abbbde978",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7a598781117d3cfd",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Uber — marketplace)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4640e39f1f4b8170",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a7da416fb877212d",
+        "question": "Find the median from a data stream. (Context: Uber — marketplace)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "36b820ee649dc1aa",
+        "question": "WAP to return mirror of a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5dcd7ee39e64bb96",
+        "question": "Implement dictionary.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6c20829330682475",
+        "question": "find the data structure to store them",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5b52798095d4fac5",
+        "question": "Design a HashMap in Java. Implement put, get, remove, resize methods.",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e5f8c6ddcd224b74",
+        "question": "Implement LRU Cache.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bee2db02c866cd40",
+        "question": "Program to check whether a given graph is Bipartite or not.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "66a4cbd578d5a091",
+        "question": "Given a list of number, return all subsets of the list.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4099303a15d5413d",
+        "question": "Serialize & Deserialize a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cdf577adf3ef6837",
+        "question": "Design a data structure that supports insert, delete, search and getRandom in constant time.",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "612695272f2e5f28",
+        "question": "Design a data structure that supports 3 below operations:",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6258ee349e70bcda",
+        "question": "Given input which is vector of log entries of some online system each entry is something like (user_name, login_time, logout_time), come up with an algorithm with outputs number of users logged in the system at each time slot in the input, output should contain only the time slot which are in the input.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fe06639a3e4cab8d",
+        "question": "Given a string, determine if a permutation of a string can form a palindrome.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "276db25d840685f3",
+        "question": "Implement a timer using queue.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5a5d78756f2daec8",
+        "question": "Implement boggle(Find all possible words in a board of characters).",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "118122e02e5d8df7",
+        "question": "Implement a map data structure using a binary search tree. It should have the functions Get, Set, and Size.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7dbf9e5b4cfd2390",
+        "question": "Implement the substring method.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "86db382247bc4c86",
+        "question": "Create a data structure that stores integers, let then add, delete. It also should be be able to return the minimum diff value of the current integers.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "487eb5ffcbadd91d",
+        "question": "Given a 2D array of either '\\' or '/', find out how many pieces this rectangle is divided into graphically.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "924ebfbd156b84f9",
+        "question": "Find if a set of meetings overlap. Meeting has a starttime and an endtime with accuracy to minute. All meetings take place in the same day. Do this in O(n) time.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b6ae03da4adf1e1d",
+        "question": "Design classes to represent the following problem and solve the questions 1,2,3",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e7331553f4ca6028",
+        "question": "Implement search in contacts list when the keyboard type is T9 (predictive text).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0d903ed9bda14c4f",
+        "question": "Given a picture of square with a bunch of horizontal and vertical lines in it (lines are not necessarily spanning the full square length, in other words think of a fine grid with many holes in it), design data structure(s) representing the data and a function that returns a number of squares pictured. (actual implementation expected).",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2c1978d27b3bbf27",
+        "question": "Write a function to check that a binary tree  is a valid binary search tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "caf71a3f28ee8941",
+        "question": "Write a method getProductsOfAllIntsExceptAtIndex() that takes an array of integers and returns an array of the products. i.e,find the product of every integer except the integer at that index.",
+        "answer": "Prefix and suffix products in two passes without division. Time O(n), space O(n) or O(1) with output array. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1d64d85dfcd06f19",
+        "question": "Implement queue with two stacks.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "00f4fdaff72f8bdf",
+        "question": "WAP to find the k smallest values in a binary search tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5f9bffd5d7b36bdc",
+        "question": "Program to find the distance between two keys in a binary tree, no parent pointers are given.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "miscellaneous": [
+      {
+        "id": "43a292257c28e3de",
+        "question": "Design an alarm system for a driverless car.",
+        "answer": "Clarify scale (users, QPS, data size). List core APIs. Draw services, DB, cache, queue. Discuss sharding, replication, bottlenecks. Mention monitoring and how Uber scale systems handle peak load.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4e2a319f0a9d719e",
+        "question": "Design an algorithm to operate elevators to pick up people on different floors of a building.",
+        "answer": "Clarify scale (users, QPS, data size). List core APIs. Draw services, DB, cache, queue. Discuss sharding, replication, bottlenecks. Mention monitoring and how Uber scale systems handle peak load.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3764d423936d97d0",
+        "question": "Given a restaurant menu and a budget, output all the possible ways to use up the budget.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "096516248dc0333e",
+        "question": "How would you find the words that became obsolete in English language between 16th and 17th century? You may use a search engine.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d037ec5934d82b20",
+        "question": "Design a price surge system, both at a high level and the architecture",
+        "answer": "Clarify scale (users, QPS, data size). List core APIs. Draw services, DB, cache, queue. Discuss sharding, replication, bottlenecks. Mention monitoring and how Uber scale systems handle peak load.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0dbed98741ad9f71",
+        "question": "Design a distributed system for sorting of large files.",
+        "answer": "Clarify scale (users, QPS, data size). List core APIs. Draw services, DB, cache, queue. Discuss sharding, replication, bottlenecks. Mention monitoring and how Uber scale systems handle peak load.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "82362834695df3f9",
+        "question": "Design Netflix",
+        "answer": "CDN edge caching, adaptive bitrate streaming (HLS/DASH), encoding pipeline (transcode ladder), recommendation (collaborative + content), chaos monkey for resilience.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6798e069d92604d8",
+        "question": "Design Online Spreadsheets",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ae14c519832e3f12",
+        "question": "Design Twitter",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Uber.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

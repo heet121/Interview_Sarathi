@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "built_at": "2026-06-10T11:24:49.799117+00:00",
+  "total_rows": 2538,
+  "companies": 29,
+  "with_answers": 2538,
+  "sources": {
+    "grg124/Interview-Questions": 525,
+    "interview_sarathi/topic_banks": 2013
+  },
+  "by_round_type": {
+    "coding": 1740,
+    "dsa": 607,
+    "dbms": 17,
+    "operating_system": 34,
+    "system_design": 3,
+    "miscellaneous": 97,
+    "technical": 2,
+    "telephonic": 5,
+    "general": 33
+  }
+}

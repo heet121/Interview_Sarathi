@@ -1,0 +1,1057 @@
+{
+  "company": "Samsung",
+  "sections": {
+    "coding": [
+      {
+        "id": "d51b74a8ab555f4b",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "159c191b318badf1",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Samsung — mobile)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "125449fae94fe9c6",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d0f764dac5351a93",
+        "question": "Reverse a linked list in groups of size k. (Context: Samsung — mobile)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fe012d05000f10e8",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "730a4b75de53fa7c",
+        "question": "Find the longest substring without repeating characters. (Context: Samsung — mobile)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3f105245d569b249",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8accc95fc62568e6",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Samsung — mobile)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "677bb8a2899ef0c8",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "174e3ad77e0d944b",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Samsung — mobile)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "07d9b8dd27f2b075",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "88d4598f19b7b1c5",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Samsung — mobile)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "7bf3fa108b0751b1",
+        "question": "Write the code of heap sort and complexity in different cases.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "590474939572f36b",
+        "question": "Implement Kadane's Algorithm.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1a1a521ff3cf41be",
+        "question": "Kahn's algorithm for topological sorting.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a555d02f15352fce",
+        "question": "Which DS is used to manage files and folder in your mobile?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dc223183b0069a8a",
+        "question": "Write code for Dijkstra Algorithm.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0cd8aeeee270df39",
+        "question": "Find the kth minimum element into binary search.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a0d34f26e190c170",
+        "question": "What is memory leak? How to avoid it?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1a7d7444e8f118ce",
+        "question": "Write a program to create circular queue?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "553927c7d2e20dfe",
+        "question": "Detect and remove loop in linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "aeb539c256f7302f",
+        "question": "Design LRU data structure.",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3dcb9180c90bc3a5",
+        "question": "WAP for finding nth node from the end in the linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0e5a9b6ce61f8f7b",
+        "question": "Explain KMP Algorithm.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5b31b4881659f026",
+        "question": "Zigzag traversal between two singly linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d2ea3ea343a9ab1b",
+        "question": "There is a N*M matrix where each row is sorted. Find the kth largest element in matrix?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "647da8c840a293b3",
+        "question": "Find the largest and second largest element in array. Give 4 different approaches.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c5f7027a19a1babe",
+        "question": "Given two polynomials as linked lists, return a linked list which represents the product of two polynomials.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "68968b928631e2a5",
+        "question": "What is the difference between dynamic programming and divide and conquer?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "022f8389c7c99991",
+        "question": "Given two polynomials represented by two arrays, write a function that multiplies given two polynomials.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "43a546a878d1a24b",
+        "question": "What are the disadvantages of stack.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "191075c6d7629cee",
+        "question": "Write a program to find when we get stack overflow if we are using recursive functions.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0416c07599946c02",
+        "question": "How cycle detection is different in directed and undirected graphs?",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6dc787aa18094453",
+        "question": "Write a program to append a C-style string to the end of another C-style string. You were supposed to",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3cf725acdc636009",
+        "question": "write a function like void concat(char* a , char* b) such that after calling this function a becomes",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ffe386ab4be7e25a",
+        "question": "Why do we need trie data structure?Tell one another technique which does the same job as trie",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "72f7ef388023421c",
+        "question": "with same time complexity? Then why trie is preferred over that one?(The other technique which I",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bd9bd195755bd3ba",
+        "question": "Given a binary tree remove nodes to make it 'Perfect'. Print all removed nodes.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dbms": [
+      {
+        "id": "04f9cb046662fb3a",
+        "question": "What is view in DBMS?",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "639487598e526200",
+        "question": "What is Indexing?",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cc45b73469534fa9",
+        "question": "Describe join operation w.r.t databases.",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "operating_system": [
+      {
+        "id": "605d363b603fde4d",
+        "question": "What is page fault and why it occurs?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c1202dd9a5dfd18c",
+        "question": "What is virtual memory?",
+        "answer": "Maps virtual addresses to physical via page tables. Pages swapped to disk on pressure. TLB caches translations. Page fault loads page from disk.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7c5e046a169838e7",
+        "question": "What is Demand Paging?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "947c7b5712663525",
+        "question": "Explain Semaphore.",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1bc5258511059483",
+        "question": "Write code for Producer-Consumer Problem.",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6d5f59f757270ede",
+        "question": "What is Swap In and Swap Out?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "808ea803d5e38d37",
+        "question": "Explain the page replacement Algorithm LRU.",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "81fbc7e77063c1df",
+        "question": "What is Inter process communication ,types and which one is fast and why?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "48b95005d52c3ac1",
+        "question": "What is fragmentation? Define external fragmentation.",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2306c1114aeb0672",
+        "question": "Calculate the number of processes generated using N fork() statements?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d6e4b85ef126ad1d",
+        "question": "Due to priority of process, what type of problem occurs in priority scheduling?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "77fdfb8e8386ced2",
+        "question": "What is real time OS.",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c3f373ba2dcd6959",
+        "question": "If time slice is greater than the execution time of largest execution time process than round robin acts as...?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4c12de2ec8279463",
+        "question": "Explain spooling.",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "188a3e98f820263a",
+        "question": "You are given a process A. The scheduler is using Priority Based Round Robin Technique for",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2bcebf982621e6a6",
+        "question": "deadlock? Explain with reasons.",
+        "answer": "Four conditions: mutual exclusion, hold-and-wait, no preemption, circular wait. Prevent by ordering locks, timeouts, or banker's algorithm.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "853b541a415a56ab",
+        "question": "What is starvation? Out of priority based round robin scheduling and priority based scheduling , which one is more likely",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3523ad51f1118e60",
+        "question": "to suffer from the problem of starvation? How to recover from starvation?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "miscellaneous": [
+      {
+        "id": "8d7b9dfff10b41b8",
+        "question": "Explain and give an example of a function pointer. Write function pointer for a function that takes an integer as a parameter and returns character.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b58fc72453c7524c",
+        "question": "Implement you own strcat() function. Dont use string header.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6d2d529550d70ff3",
+        "question": "What is Inline functions?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "83709429df658b69",
+        "question": "Write a program to allocate a 3D-array dynamically.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9ba2e857d67c6af3",
+        "question": "Write your own typedef operator.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8463703f0c12d3e7",
+        "question": "What is meant by Early binding and late binding.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3790068d294c2920",
+        "question": "Create a pointer that can point to an array of integers.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "353f4f88450c072d",
+        "question": "Explain client server architecture.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "941498868f95b422",
+        "question": "What is  L-value and R-value reference?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "70487244c335a789",
+        "question": "Define MFC COM and DCOM.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4d02c64aabd9dd27",
+        "question": "What is meant by Big and Small Endian? How would you know that Machine code is Big or Small Endian?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1f54bd82f4ab3108",
+        "question": "What is friend class and function in C++?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "74b4200e1065a225",
+        "question": "What is Virtual Function in C++?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4b4182a81a5377c8",
+        "question": "Explain VTABLE and VPTR?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7c8d37585e2578a5",
+        "question": "Describe Java's garbage collection.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "926f032d6935fc25",
+        "question": "Explain Abstract and pure Virtual function in detail.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ebb98df28f11c626",
+        "question": "What is the difference between a static and const variable?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "19ec948590adb773",
+        "question": "Do namespaces interact? if yes, how? if no, why not?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1c68cb9ad1449d62",
+        "question": "Define Scheduling. Which data structure is used in scheduling?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "38ba71b684a60c50",
+        "question": "Where are the local, global, static, auto, register, extern, const, volatile variables stored?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "529ef5ac5f58f354",
+        "question": "What is a virtual destructor? Explain the use of it - C++.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3bc3f11728093b56",
+        "question": "What is a void pointer, a smart pointer, a wild pointer, a null pointer, and a dangling pointer? In what cases are they used?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1a0d0600985e9287",
+        "question": "What is the difference between a deep copy and a shallow copy?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bf3c7cffab06f0e1",
+        "question": "Explain Diamond problem in C++.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b2343bc3829c75df",
+        "question": "What is segmentation fault?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7c3f0f26fb0dedbe",
+        "question": "Implement 3 stacks using 1 array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "edb0edd9299f6fbd",
+        "question": "Explain MultiLevel inheritance.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "546b6872df1aae78",
+        "question": "What is structure padding ?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4276a930d2699e10",
+        "question": "What are memset and memcopy?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b0867a4a4767f7c6",
+        "question": "What is function pointer?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ef66e1a75c67c4b1",
+        "question": "There are some exceptions that cannot be caught by try catch. How to catch such exceptions? Can we prevent our program to crash if we are not able to catch such exceptions.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bca13d3372c4a983",
+        "question": "What is name mangling, and how does it work?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d75be01ff88d3470",
+        "question": "What does malloc(0) return?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "98e59df9cbd4971a",
+        "question": "need to find fastest 3 horses. What is the minimum number of races do you require?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "55f3b8ed5392e9e4",
+        "question": "You are given 8 batteries and 1 torch. 4 batteries are working and 4 are dead. The torch",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "6198987501be85b0",
+        "question": "What is the minimum number of times you need to switch the torch to find out 2 working batteries?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3213a7424cb531a4",
+        "question": "How to prevent multiple object instantiations of a class ?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "83c05a8884903698",
+        "question": "Explain the math behind gradient descent ?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "general": [
+      {
+        "id": "822ab7710091563f",
+        "question": "<kbd>Graph</kbd>",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "118dabfad187fbe3",
+        "question": "<kbd>Bipartite-Graph</kbd>",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3a26d595f098dae5",
+        "question": "When the map of the ground water pipe, the location where the endoscope to out in, and the length of the endoscope is given, calculate the number of pipe which are available to explore. Length of endoscope means the range upto which endoscope can explore. There are seven kind of pipes, and description for each pipe are shown below:",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "085596e559f66c71",
+        "question": "When the map of the groundwater pipe, the location where the endoscope to out in, and the length of the endoscope is given, calculate the number of the pipe which are available to explore. Length of endoscope means the range up to which endoscope can explore.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "83c9d18200e86e02",
+        "question": "Given a graph print either of the set of the vertices that are colored with the same color. And if the graph is not bipartite print “-1”. Test cases also included cases when a graph is not connected.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "481b56cc8858ea8d",
+        "question": "Given a Binary Tree where each node has positive and negative values. Convert this to a tree where each node contains the sum of the left and right subtrees in the original tree. The values of leaf nodes are changed to 0.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4130daad74171a6e",
+        "question": "Write a function that calculates the day of the week for any particular date in the past or future. A typical application is to calculate the day of the week on which someone was born or some other special event occurred.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4bc76a6ca90b5b4b",
+        "question": "Given a Binary Tree, write a function that returns the size of the largest subtree which is also a Binary Search Tree (BST). If the complete Binary Tree is BST, then return the size of the whole tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "25b17e7feb29495f",
+        "question": "You are given an array of integers which represents positions available and an integer c(cows).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "eab342445fd75944",
+        "question": "Given a Binary Tree and a node x in it, find the distance of the closest leaf to x in Binary Tree. If given node itself is a leaf, then the distance is 0.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a018a9a9a48e25ad",
+        "question": "Given random points in a 2-D plane, construct a convex polygon with a minimum area of coverage and which encompasses all the given points.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ac68a8e1f3b6b3be",
+        "question": "Given a graph, find out if it can be colored using 2 colors. If Yes, print numbers of vertices with any one of the colour, followed by such vertices in sorted order. If No just print -1",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a1c3aa39d8cd68da",
+        "question": "Given a 2 D matrix where 1 represents the places where the frog can jump and 0 represent the empty spaces, the frog can move freely in the horizontal direction (on 1’s only) without incurring any cost (jump). A vertical jump from a given point of the matrix to another point on the matrix can be taken (on 1’s only) with cost as the number of jumps taken.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fc56d9b7380a2e3f",
+        "question": "Given a source and destination, the frog has to reach the destination minimizing the cost (jump)",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3e86787b93223da9",
+        "question": "Given a directed graph. Check whether a graph contain a cycle or not.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e42945738921d686",
+        "question": "Given a level K , you have to find out the sum of data of all the nodes at level K in a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b1da30948dcb80ba",
+        "question": "Given a range form s to e, you need to find number of products that would sell, leaving out the products that contains atmost ’k’ ominous numbers.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e418e1225741abd7",
+        "question": "You are given N unique numbers a1<a2<a3<...an. Find out the count of all possible binary search trees that can be constructed using these numbers.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9abb52521db8e89f",
+        "question": "Given an NxM (N rows and M columns) integer matrix with non-negative values (0..MAX_INT inclusive). What is the maximum sum from going top left (0, 0) to bottom right (N-1, M-1)? The condition is that when you're at the point (p, q), you can only move to either right (p, q+1) or down (p+1, q).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ebfd1e8a4cc90537",
+        "question": "You are given the locations of the office, Mr Kim’s home, and the customers; the number of the customers is in the range of 5 to 10.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a6d6348bb528d42b",
+        "question": "Write a program that, starting at the office, finds a (the) shortest path visiting all the customers and returning to his home. Your program only has to report the distance of a (the) shortest path.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "da2ddafbba58a4b4",
+        "question": "You are given 10 test cases. Each test case consists of two lines; the first line has N, the number of the customers, and the following line enumerates the locations of the office, Mr Kim’s home, and the customers in sequence. Each location consists of the coordinates (x,y), which is represented by ‘x y’.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bbae02f52db05fd5",
+        "question": "Given a graph question. We have to find the loop in the graph if it exists and print the nodes of the loop in sorted order.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7693101f856e3843",
+        "question": "You are given an old touch smartphone numbers having dial pad and calculator app.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "befcf72b3251e734",
+        "question": "Array of overflow no--. {1,...,On}",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c68834c4a9865901",
+        "question": "You are given 2 convex hulls. Find all the common points that lie in the intersection of these 2 convex hulls.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "66be9e3307d38627",
+        "question": "When locations of a maze and jewels are given,",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0998915e2dcae06f",
+        "question": "find out the greatest number of jewels you can get without taking the same passage twice, and the path taken in this case.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f5b7750dd071c18e",
+        "question": "![](https://github.com/rishabh115/InterviewQuestions/blob/master/Samsung/res/jewel.jpg?raw=true)",
+        "answer": "TLS handshake: client hello → server cert → key exchange → symmetric encryption. Certificate signed by CA. Protects integrity and confidentiality on wire.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "006b49322722c4d1",
+        "question": "Write a program to find out the minimum number moves to catch a piece.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8dbf4270b9323e80",
+        "question": "You are busy to promote a newly released film in a movie theatre . the title is 'Biochemical Laughing Bomb' which is about terror. Guerillas drop a biochemical laughing bomb in the middle of a city. once exposed, you have to laugh all your life. The bomb will contaminate four people around it during t second, and another four around each of them during another one second. However, you won't be contaminated if you are not in the adjacent four directions. as the below shows the location of the bomb and affected people , and shows contamination process in seconds and you can figure out that the whole city is contaminated in 8 seconds.",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ca98c877241936ff",
+        "question": "Given number of pipes 1..n, Find two largest pipes of maximum length possible.",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3733795dffe65df2",
+        "question": "which has following properties:",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Samsung.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}

@@ -1,0 +1,703 @@
+{
+  "company": "Yatra.com",
+  "sections": {
+    "coding": [
+      {
+        "id": "a19f6fed00afeea6",
+        "question": "Two arrays are provided. The second array is to be traversed and number(count) of values smaller/equal than each element of the second array in the first array are to be printed as output.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f80ee28b957e7cb2",
+        "question": "One integer array is provided, and a value ‘k’ is given. You have to print the number(count)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "32cd7434a0e18e4a",
+        "question": "of sub-arrays whose product is less than ‘k’.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b49f2f954001f49c",
+        "question": "Given three sorted array, find the numbers which are common in all three arrays.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "346700262cfadde4",
+        "question": "Find bitonic point in given bitonic sequence.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d84de3642dbe56eb",
+        "question": "Given two strings s1 and s2, we need to find the minimum number of manipulations required to make two strings anagram without deleting any character.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a9e1aa4d33bd4b47",
+        "question": "Given a list of strings, where each string is composed of different combinations of (, ), {, }, [, ]. Verify the validity of the arrangement. ()[]{} Is valid, ())({} is not valid.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "20931f476bb8af63",
+        "question": "Given a string return all possible subsequences which start with vowel and end with consonant.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dc4bdd8daf1b4788",
+        "question": "An array is given which contains the age of your friends , if the age of the friend is greater than any neighbor then he will get more chocolate than him. You have to find the number of chocolates for distributing each one.(Birthday Problem)",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "24b154fff3ee1736",
+        "question": "Given an array A[] consisting 0s, 1s and 2s, write a function that sorts A[]. The functions should put all 0s first, then all 1s and all 2s in last.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "99de5a20fea75d21",
+        "question": "Given an array of integers, find the nearest smaller number for every element such that smaller element is on left side.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fcacc1f51b1da4bd",
+        "question": "Write a program to reverse words in a given string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e5fed9f536764545",
+        "question": "Given a Matrix with 0’s and 1’s in sorted order. design an algorithm to return row index with maximum number of 1’s. after That he modified the ques that some rows are sorted in increasing order and some in decreasing order.",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "594d49a3f27bfab0",
+        "question": "Given two arrays of n+m and n size. n+m size array only have m elements and n size array have n elements. Design an algorithm to shift smaller array element in larger array also larger array should be sorted.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e50ea4ff26ecbbcd",
+        "question": "There are 2 ^ n sorted arrays of size k . Merge them to  form a single sorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fac7341d772471a2",
+        "question": "Given an array and integer.Find whether b is present in a[] or not.If present,then double the value of b and search again. We repeat these steps until b is not found. Finally we return value of b.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b735647a2a01bc8e",
+        "question": "Given an array that is sorted and then rotated around an unknown point. Find if array has a pair with given sum.It may be assumed that all elements in array are distinct.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "751cfd72e53de5b0",
+        "question": "Given a string which contains vowels and consonants. Find the number of substrings which start with vowel and ends with consonant.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5a50f0c1901fc193",
+        "question": "Given a 2d grid map of 'Y's <b>(Grass)</b> and 'N's <b>(no Grass)</b> where connected grass blocks forms a <b>field</b>. Two fields are separated field by 'no grass' and is formed by connecting grass blocks horizontally or vertically. Only a cow or sheep can graze in one field. Find the count of all the combinations where the number of sheep is even.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e9972a76e05b7ca8",
+        "question": "Given an array of distinct integers and a sum value. Find count of triplets with sum smaller than given sum value. Expected Time Complexity is O(n<sup>2</sup>).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "db380742e59bfaef",
+        "question": "Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5fa4253884fbc79b",
+        "question": "Given two strings in lowercase, the task is to make them anagram. The only allowed operation is to modify a character from any string. Find minimum number of characters to be modified to make both the strings anagram?",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4c05731a4cc2f4f7",
+        "question": "Given an array of integers, find two numbers that add up to a target sum.",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c4a48c77b5249738",
+        "question": "Given an array of integers, find two numbers that add up to a target sum. (Context: Yatra.com — software engineering)",
+        "answer": "Hash map: for each value x, check if (target - x) exists. Store seen numbers. Time O(n), space O(n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9a14d9d2754caa79",
+        "question": "Reverse a linked list in groups of size k.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cc3ac5ab0a51e350",
+        "question": "Reverse a linked list in groups of size k. (Context: Yatra.com — software engineering)",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "927a066ea549a266",
+        "question": "Find the longest substring without repeating characters.",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "15e0f6ee95f9ac4f",
+        "question": "Find the longest substring without repeating characters. (Context: Yatra.com — software engineering)",
+        "answer": "Sliding window + set/map of last index. Expand right, shrink left on duplicate. Time O(n), space O(min(n, alphabet)).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d0e671ba501ee8e4",
+        "question": "Merge k sorted linked lists into one sorted list.",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "254e24366cd6cc28",
+        "question": "Merge k sorted linked lists into one sorted list. (Context: Yatra.com — software engineering)",
+        "answer": "Min-heap of size k: push head of each list, pop smallest, push its next. Time O(N log k), space O(k).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b9822bae9f203865",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes.",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "a0c1ec21e25b0ef1",
+        "question": "Given a binary tree, find the lowest common ancestor of two nodes. (Context: Yatra.com — software engineering)",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b2d1712c233fcd06",
+        "question": "Implement LRU cache with O(1) get and put.",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fa3860a76b0093c1",
+        "question": "Implement LRU cache with O(1) get and put. (Context: Yatra.com — software engineering)",
+        "answer": "Hash map + doubly linked list: map key→node, move accessed nodes to head, evict tail when capacity exceeded. get/put O(1).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "48a198ee580ae9e8",
+        "question": "Find the median from a data stream.",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "13fb4ead83bf14c5",
+        "question": "Find the median from a data stream. (Context: Yatra.com — software engineering)",
+        "answer": "Two heaps: max-heap for lower half, min-heap for upper half. Balance sizes so median is top of max-heap or average of both tops. Insert O(log n).",
+        "difficulty": "medium",
+        "source": "interview_sarathi/topic_banks",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dsa": [
+      {
+        "id": "289b04acc5fae576",
+        "question": "Write a code to reverse a linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "67edd4e75ef15c04",
+        "question": "You are given a list of songs and you have to select a random song and play it, but the condition was that you can not play a song twice.Consider there is a function play() which takes song as parameter and plays it.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2b90b5fb0951f56d",
+        "question": "Given a binary tree, Do the reverse level order traversal.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "fe6ccf8934c1dbad",
+        "question": "Given coordinates of points find closest pair points distance.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "51ced22b0b3e8143",
+        "question": "Given an array find two elements whose sum equal to zero.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "4140d749c1db32d2",
+        "question": "Reverse the elements of stack without using another stack, queue and array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "5dd9793630106f67",
+        "question": "Implement Manacher's algorithm.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "cd37227f3695693d",
+        "question": "Find a pair of elements swapping which makes sum of two arrays same. If not possible, return -1. Time complexity should be less than O(n^2).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "7881977d1eccf21f",
+        "question": "Perform reverse level order traversal using TreeMap(Java).",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b2e79b3e79cd3806",
+        "question": "Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree",
+        "answer": "Recursive DFS on BST: if both nodes smaller go left, both larger go right, else current node is LCA. For binary tree: post-order return node if it matches p or q or both subtrees non-null.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "44fe29fadb054c0e",
+        "question": "In a binary tree, find the left facing elements with recursion and without recursion.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "947615a4762f0ee6",
+        "question": "Given 2D array horizontally and vertically sorted find a given element.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "31fe7a3b632c7e01",
+        "question": "Rotation of the sorted array through some pivot.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "63fb40406cf479ca",
+        "question": "Find the number in an array which is appearing odd number of times.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0fecf024c4628e5b",
+        "question": "Find whether two strings are anagrams of each other or not.What would happen if strings are very large.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c70513dcec6dfada",
+        "question": "Level Order traversal of a binary tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "3a8dc4fb7ff1cc95",
+        "question": "Given a binary tree, find whether all leaves are at same level or not.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "ae2f92024cad8879",
+        "question": "Check whether given linked list is palindrome or not.Write optimized code handling all edge cases.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "9c992f99c30e9edb",
+        "question": "Reverse K blocks of nodes in linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Use iterative reversal in groups of k; handle remainder < k. Time O(n), space O(1). State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b4be9db4937a36eb",
+        "question": "Find min element in stack in O(1).",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "8931f2ee6300437a",
+        "question": "Implement counting sort.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "d9105d21f4f5f807",
+        "question": "Given a set of start date and end date, design a data structure to return the set given date falls in.",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b2f967264f6f1385",
+        "question": "Find second non-repeating element in an array.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "68878981e9027b6f",
+        "question": "Clone a binary tree. Node object is immutable.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "f9e862db4202ebb5",
+        "question": "Implement Kadane's Algorithm.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "864d12f179761686",
+        "question": "Implement Trie with insert, search, and startsWith methods.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "50fc9e043f534eff",
+        "question": "Find the median of unsorted array in linear time.",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "99f7b75de1dd7ed2",
+        "question": "Write code for Dutch National Flag problem.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "c261b43712a03fc6",
+        "question": "Design and implement a data structure for Least Recently Used (LRU) cache.",
+        "answer": "Requirements → API → data model → scaling → failure modes. Estimate QPS/storage. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0d674535339cc4c5",
+        "question": "Delete the odd elements from a linked list.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "90a5bc479ee53152",
+        "question": "Find the minimum difference between two elements. But the difference must be calculated between the current element and the elements on the right hand side of the element.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bbaaa02553b9c6a7",
+        "question": "Implement a compression algorithm e.g. if data is 10GB in size and my storage is only 1 GB",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "728c00ef262d4f2e",
+        "question": "Find the last repeating element in integer array O(n).",
+        "answer": "Consider sorting, two pointers, prefix sums, or hash map depending on constraint. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "73a6d224468b728d",
+        "question": "Check whether a binary tree is binary search tree.",
+        "answer": "State traversal order (in/pre/post) or recursion invariant. Typical solutions: DFS/BFS O(n) time, O(h) space. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "dbms": [
+      {
+        "id": "c0e8d40ea7668780",
+        "question": "Given a table with (empId, deptId, Salary ) make a sql query which list the maximum salary for each department.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "841ce2fce7ae0a34",
+        "question": "Given a table (EmpID, Salary) make a generic sql query so that i can get the nth highest salary.",
+        "answer": "Restate problem, examples, brute force then optimize. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "0ac3dbc795610453",
+        "question": "Design tables for getting all employees under manager.",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "b716704a0a9d2c17",
+        "question": "What is database normalization? What are its advantages and disadvantages?",
+        "answer": "1NF: atomic columns. 2NF: no partial dependency on composite key. 3NF: no transitive dependency. Reduces redundancy; may denormalize for read performance.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "bcc6e24286b5400b",
+        "question": "Write SQL commands to create a table appropriate for representing students as well",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "81d125733c86f247",
+        "question": "search for students by GPA with results sorted by GPA.",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1ef8bb0be47afa84",
+        "question": "What is a SQL join? Suppose you have a table of courses and a table of",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "2e878941ed57ce70",
+        "question": "students. How might a SQL join arise naturally in such a database?",
+        "answer": "Define the term precisely, explain why it matters in production, give a concrete example (e.g. banking transaction), mention trade-offs or common mistakes.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "operating_system": [
+      {
+        "id": "07f7b9aabbc230ef",
+        "question": "What is deadlock ?What are the necessary conditions for deadlock?",
+        "answer": "Four conditions: mutual exclusion, hold-and-wait, no preemption, circular wait. Prevent by ordering locks, timeouts, or banker's algorithm.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "352e86f22cf52060",
+        "question": "What is a process and process table? What are different states of process?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "88ca1a7eedd239b3",
+        "question": "What is Virtual Memory? How is it implemented?",
+        "answer": "Maps virtual addresses to physical via page tables. Pages swapped to disk on pressure. TLB caches translations. Page fault loads page from disk.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "1da1fb63aef51fa5",
+        "question": "Differences between mutex and semphore?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "786e6fbb4398d4c9",
+        "question": "What is difference between micro kernel and macro kernel?",
+        "answer": "Explain the mechanism, relate to real OS behavior (Linux/Windows), cover trade-offs and one debugging or performance implication.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ],
+    "miscellaneous": [
+      {
+        "id": "934007a90e13180e",
+        "question": "What is Hashing, Hash table ?",
+        "answer": "Direct answer first, then 2–3 supporting points with a concrete example. Keep it interview-length (90–120s spoken) and relevant to Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "e94dd54575cce07c",
+        "question": "Cloning a linked list with random pointers.",
+        "answer": "Clarify singly vs doubly linked, constraints on memory. Draw examples; watch edge cases: empty list, single node. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      },
+      {
+        "id": "dbaa262a98a15ad5",
+        "question": "Given a base string, find whether the input string is rotation of base string.",
+        "answer": "Trie, DP, or backtracking common. Clarify dictionary size and repetition rules. State time/space complexity and test edge cases for Yatra.com.",
+        "difficulty": "medium",
+        "source": "grg124/Interview-Questions",
+        "answer_source": "local_enriched"
+      }
+    ]
+  }
+}
