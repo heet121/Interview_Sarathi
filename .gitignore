@@ -29,5 +29,7 @@ frontend/.vite/
 # Editor / OS
 .idea/
 .vscode/
+.cursor/
+.netlify/
 .DS_Store
 Thumbs.db
